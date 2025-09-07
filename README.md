@@ -18,6 +18,7 @@ A FastAPI-based application that uses machine learning to match users with their
 - **Dual Pet Support**: Separate models for dogs and cats
 - **RESTful API**: Clean FastAPI endpoints with automatic documentation
 - **Data Validation**: Pydantic models ensure data integrity
+- **Image Serving**: Local image hosting through FastAPI endpoints
 - **Scalable Architecture**: Modular design following SOLID principles
 
 ## 🏗️ Architecture
@@ -34,7 +35,8 @@ friendr/
 │   └── predictor.py       # Model inference
 ├── data/                  # Data storage
 │   ├── pet_data.csv       # Pet characteristics
-│   └── user_data.csv      # User preferences
+│   ├── user_data.csv      # User preferences
+│   └── images/            # Pet images (dogs/ & cats/)
 └── saved_models/          # Trained ML models
 ```
 
@@ -167,19 +169,51 @@ POST /match_pet
 {
   "matches": [
     {
-      "name": "Max",
+      "name": "Daisy",
       "type": "dog",
-      "match_percentage": 95.2,
-      "image_url": null
+      "age": 10,
+      "match_percentage": 97.88,
+      "image_url": "http://localhost:8000/image/dog/dog_462.jpg"
     },
     {
-      "name": "Bella",
+      "name": "Charlie",
       "type": "dog", 
-      "match_percentage": 87.8,
-      "image_url": null
+      "age": 13,
+      "match_percentage": 97.88,
+      "image_url": "http://localhost:8000/image/dog/dog_258.jpg"
+    },
+    {
+      "name": "Ace",
+      "type": "dog",
+      "age": 13,
+      "match_percentage": 92.21,
+      "image_url": "http://localhost:8000/image/dog/dog_464.jpg"
     }
   ]
 }
+```
+
+**Response Field Descriptions:**
+- `name`: Pet's name
+- `type`: Pet type ("dog" or "cat")
+- `age`: Pet's age in years (converted from months)
+- `match_percentage`: Compatibility percentage (boosted for demo purposes)
+- `image_url`: Direct URL to pet's image
+
+#### 4. Image Serving
+```http
+GET /image/{pet_type}/{filename}
+```
+
+**Parameters:**
+- `pet_type`: "dog" or "cat"
+- `filename`: Image filename (e.g., "dog_462.jpg")
+
+**Response:** Returns the image file directly
+
+**Example:**
+```http
+GET /image/dog/dog_462.jpg
 ```
 
 ## 🧪 Testing
@@ -202,6 +236,9 @@ curl -X POST "http://localhost:8000/match_pet" \
        "affection": 5,
        "training": 2
      }'
+
+# Test image serving
+curl http://localhost:8000/image/dog/dog_462.jpg
 ```
 
 ### Testing with Python requests
@@ -224,6 +261,10 @@ response = requests.post(
 )
 
 print(response.json())
+
+# Test image serving
+image_response = requests.get("http://localhost:8000/image/dog/dog_462.jpg")
+print(f"Image size: {len(image_response.content)} bytes")
 ```
 
 ## 🔧 Development
@@ -241,6 +282,13 @@ print(response.json())
 2. **New Matching Criteria**: Extend the feature columns in trainer and predictor
 3. **New Endpoints**: Add to `app/main.py` following existing patterns
 4. **New Services**: Create in `app/services/` with proper abstractions
+
+### Data Processing Notes
+
+- **Age Conversion**: Pet ages are stored in months but returned in years (rounded)
+- **Match Percentage Boosting**: Demo version adds 40% to match percentages for better presentation
+- **Duplicate Handling**: Pets with identical personality profiles are deduplicated
+- **Image Assignment**: Each pet gets one unique image from the local image collection
 
 ## 🤝 Contributing
 
@@ -261,6 +309,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 1. **Model not found error**: Run `python -m ml_model.trainer` to generate models
 2. **Import errors**: Ensure virtual environment is activated
 3. **Port already in use**: Change port with `uvicorn app.main:app --port 8001`
+4. **Image not found**: Ensure images are in `data/images/dogs/` and `data/images/cats/`
 
 ### Support
 
