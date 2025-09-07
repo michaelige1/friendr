@@ -1,0 +1,12 @@
+fastapi                 # FastAPI web framework
+uvicorn                 # ASGI server to run FastAPI
+pandas                  # For data manipulation
+numpy                   # For numerical computations
+scikit-learn            # KMeans, StandardScaler
+pydantic                # Data validation (used by FastAPI)
+joblib                  # Save/load ML models
+scipy
+python-multipart
+python-dotenv
+matplotlib
+seaborn

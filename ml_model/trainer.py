@@ -15,12 +15,12 @@ def train_and_save_models():
 
     # Features used for clustering
     feature_cols = [
-        "compatibility_with_cats",
-        "compatibility_with_dogs",
-        "compatibility_with_people",
-        "energy_level",
-        "training_willingness",
-        "affection_level"
+        "dogs",
+        "cats",
+        "kids",
+        "energy",
+        "affection",
+        "training"
     ]
 
     # Split dataset into dogs and cats
