@@ -1,0 +1,98 @@
+type,name,age,breed,size,weight,dogs,cats,kids,energy,affection,training
+Cat,Luna,24,Domestic Shorthair,Small,8.2,2,4,3,4,5,3
+Dog,Max,67,Golden Retriever Mix,Large,72.5,5,3,5,4,4,4
+Cat,Whiskers,89,Maine Coon,Medium,14.8,1,5,2,2,3,2
+Dog,Buddy,45,Labrador Mix,Large,68.3,4,2,4,5,5,5
+Cat,Mittens,156,Domestic Longhair,Small,9.1,2,2,1,1,4,3
+Dog,Rocky,78,Pit Bull Mix,Large,65.7,3,1,3,4,3,4
+Cat,Shadow,34,Siamese Mix,Small,7.9,3,3,4,3,4,3
+Dog,Bella,52,Border Collie Mix,Medium,48.2,4,3,5,5,3,5
+Cat,Smokey,123,Persian Mix,Small,11.4,1,4,2,2,5,2
+Dog,Zeus,89,German Shepherd Mix,Large,78.9,3,2,3,4,4,5
+Cat,Patches,67,Calico,Small,8.7,2,3,3,3,4,3
+Dog,Duke,156,Rottweiler Mix,Large,85.2,2,1,2,3,3,4
+Cat,Snowball,45,Domestic Shorthair,Small,6.8,3,4,4,4,5,3
+Dog,Sadie,78,Beagle Mix,Medium,35.6,5,4,5,4,4,4
+Cat,Midnight,34,Bombay,Small,9.3,2,2,3,2,3,2
+Dog,Cooper,123,Australian Shepherd Mix,Large,58.7,4,3,4,5,4,5
+Cat,Princess,89,Ragdoll,Medium,12.6,1,5,2,1,5,2
+Dog,Ranger,67,Husky Mix,Large,64.3,3,2,3,5,3,4
+Cat,Ginger,45,Orange Tabby,Small,8.9,3,3,4,4,4,3
+Dog,Ace,156,Boxer Mix,Large,71.8,4,2,4,4,4,4
+Cat,Cleo,78,Egyptian Mau,Small,7.4,2,4,3,3,3,3
+Dog,Bear,34,Newfoundland Mix,Large,89.5,5,3,4,2,5,3
+Cat,Lily,123,Domestic Shorthair,Small,8.1,2,3,3,3,4,3
+Dog,Storm,89,Cattle Dog Mix,Medium,52.4,3,2,4,5,3,5
+Cat,Oreo,67,Tuxedo Cat,Small,9.7,3,2,2,3,4,2
+Dog,Diesel,45,Mastiff Mix,Large,95.2,2,1,2,2,3,3
+Cat,Misty,156,Russian Blue,Small,8.8,2,4,3,2,4,3
+Dog,Bandit,78,Terrier Mix,Small,18.9,4,3,4,4,3,4
+Cat,Chloe,34,Domestic Longhair,Medium,11.2,2,3,4,4,5,3
+Dog,Thor,123,Great Dane Mix,Large,112.7,3,2,3,3,4,4
+Dog,Peanut,89,Chihuahua Mix,Small,6.2,2,2,2,3,4,2
+Dog,Rosie,67,Cocker Spaniel Mix,Medium,28.4,5,4,5,3,5,4
+Cat,Tiger,45,Bengal Mix,Small,10.6,2,3,3,4,3,4
+Dog,Scout,156,Pointer Mix,Large,59.8,4,3,4,4,3,5
+Cat,Muffin,78,Munchkin,Small,7.1,1,4,2,2,5,2
+Dog,Gunner,34,Doberman Mix,Large,73.4,3,1,3,4,3,5
+Dog,Daisy,123,Spaniel Mix,Medium,32.7,4,3,5,3,4,4
+Cat,Felix,89,Maine Coon Mix,Medium,15.2,2,4,3,2,3,3
+Dog,Harley,67,Bulldog Mix,Medium,45.8,3,2,2,2,4,3
+Cat,Nala,45,Domestic Shorthair,Small,8.4,3,3,4,4,4,3
+Dog,Buster,156,Retriever Mix,Large,69.1,5,3,4,4,5,4
+Cat,Willow,78,Calico Mix,Small,9.6,2,4,3,3,5,3
+Dog,Jax,34,Shepherd Mix,Large,76.2,3,2,3,5,3,4
+Cat,Buttercup,123,Persian,Small,10.8,1,5,2,1,4,2
+Dog,Ranger,89,Hound Mix,Medium,41.3,4,3,4,3,3,4
+Cat,Sassy,67,Siamese,Small,7.7,2,2,3,3,4,3
+Dog,Bruno,45,Mastiff Mix,Large,98.5,2,1,2,2,3,3
+Cat,Pepper,156,Tabby Mix,Small,8.3,3,3,4,4,4,3
+Dog,Atlas,78,Great Pyrenees Mix,Large,87.9,3,2,3,3,4,4
+Dog,Honey,34,Golden Mix,Medium,38.6,5,4,5,4,5,4
+Cat,Smoky,123,Russian Blue Mix,Small,9.2,2,4,2,2,3,3
+Dog,Rex,89,German Shepherd,Large,81.7,3,1,3,4,3,5
+Cat,Buttercup,67,Domestic Longhair,Medium,12.1,2,3,3,3,5,3
+Dog,Maverick,45,Husky Mix,Large,62.8,3,2,4,5,3,4
+Cat,Precious,156,Ragdoll Mix,Medium,13.4,1,5,2,1,5,2
+Dog,Tank,78,Pit Bull Mix,Large,68.9,3,1,3,4,3,4
+Cat,Whiskers,34,Maine Coon,Medium,14.7,2,4,3,2,3,3
+Dog,Stella,123,Beagle Mix,Medium,29.8,5,4,5,4,4,4
+Cat,Shadow,89,Bombay Mix,Small,8.6,2,2,3,3,3,2
+Dog,Duke,67,Rottweiler Mix,Large,89.3,2,1,2,3,3,4
+Cat,Mittens,45,Domestic Shorthair,Small,7.9,3,4,4,4,5,3
+Dog,Zeus,156,Great Dane Mix,Large,108.2,3,2,3,3,4,4
+Cat,Ginger,78,Orange Tabby,Small,9.1,3,3,4,4,4,3
+Dog,Scout,34,Border Collie Mix,Medium,47.5,4,3,5,5,3,5
+Cat,Princess,123,Persian Mix,Small,11.6,1,4,2,2,5,2
+Dog,Bandit,89,Terrier Mix,Small,19.4,4,3,4,4,3,4
+Cat,Lily,67,Domestic Shorthair,Small,8.2,2,3,3,3,4,3
+Dog,Bear,45,Newfoundland Mix,Large,92.1,5,3,4,2,5,3
+Cat,Cleo,156,Egyptian Mau,Small,7.8,2,4,3,3,3,3
+Dog,Storm,78,Cattle Dog Mix,Medium,51.7,3,2,4,5,3,5
+Cat,Oreo,34,Tuxedo Cat,Small,9.4,3,2,2,3,4,2
+Dog,Diesel,123,Mastiff Mix,Large,96.8,2,1,2,2,3,3
+Cat,Misty,89,Russian Blue,Small,8.5,2,4,3,2,4,3
+Dog,Cooper,67,Australian Shepherd Mix,Large,57.9,4,3,4,5,4,5
+Cat,Midnight,45,Bombay,Small,9.7,2,2,3,2,3,2
+Dog,Sadie,156,Beagle Mix,Medium,34.2,5,4,5,4,4,4
+Cat,Snowball,78,Domestic Shorthair,Small,6.9,3,4,4,4,5,3
+Dog,Duke,34,Rottweiler Mix,Large,84.6,2,1,2,3,3,4
+Cat,Patches,123,Calico,Small,8.8,2,3,3,3,4,3
+Dog,Zeus,89,German Shepherd Mix,Large,77.3,3,2,3,4,4,5
+Cat,Smokey,67,Persian Mix,Small,11.1,1,4,2,2,5,2
+Dog,Bella,45,Border Collie Mix,Medium,46.8,4,3,5,5,3,5
+Cat,Shadow,156,Siamese Mix,Small,7.6,3,3,4,3,4,3
+Dog,Rocky,78,Pit Bull Mix,Large,64.2,3,1,3,4,3,4
+Cat,Mittens,34,Domestic Longhair,Small,9.3,2,2,1,1,4,3
+Dog,Buddy,123,Labrador Mix,Large,67.5,4,2,4,5,5,5
+Cat,Whiskers,89,Maine Coon,Medium,15.1,1,5,2,2,3,2
+Dog,Max,67,Golden Retriever Mix,Large,71.8,5,3,5,4,4,4
+Cat,Luna,45,Domestic Shorthair,Small,8.4,2,4,3,4,5,3
+Dog,Charlie,156,Cocker Spaniel Mix,Medium,31.2,4,3,5,3,4,4
+Cat,Milo,78,Tabby Mix,Small,9.8,3,3,4,4,4,3
+Dog,Ruby,34,Retriever Mix,Large,58.7,5,3,4,4,5,4
+Cat,Oscar,123,Domestic Shorthair,Small,8.1,2,3,3,3,4,3
+Dog,Zoe,89,Shepherd Mix,Large,72.4,3,2,3,4,3,5
+Cat,Jasper,67,Maine Coon Mix,Medium,14.9,2,4,3,2,3,3
+Dog,Molly,45,Beagle Mix,Medium,33.6,5,4,5,4,4,4
+Dog,Toby,156,Bulldog Mix,Medium,44.7,3,2,2,2,4,3
