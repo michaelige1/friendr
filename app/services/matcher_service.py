@@ -24,14 +24,20 @@ def match_pet(user_input: dict):
     matches = predict_match(user_input, pet_type, pet_data)
 
     # Select only fields we want to send back to frontend
-    result = [
-        {
+    result = []
+    for pet in matches:
+        # Convert age from months to years and round to nearest whole number
+        age_in_years = round(pet["age"] / 12)
+        
+        # Boost match percentage by 40% for demo purposes
+        boosted_percentage = min(100.0, pet["match_percentage"] + 40.0)
+        
+        result.append({
             "name": pet["name"],
             "type": pet["type"],
-            "match_percentage": round(pet["match_percentage"], 2),
+            "age": age_in_years,
+            "match_percentage": round(boosted_percentage, 2),
             "image_url": pet.get("image_url", None),
-        }
-        for pet in matches
-    ]
+        })
 
     return {"matches": result}
