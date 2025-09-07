@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="min-h-screen">
+    <div class="container mx-auto px-6 py-12">
+        <div class="flex flex-col lg:flex-row items-center justify-between min-h-screen">
+            
+            <!-- Left side - Text content -->
+            <div class="lg:w-1/2 text-white mb-12 lg:mb-0">
+                <h1 class="text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                    Your <span class="text-orange-400">Best Friend</span><br>
+                    Awaits You.
+                </h1>
+                
+                <p class="text-xl lg:text-2xl text-purple-200 leading-relaxed max-w-lg">
+                    As much as we love saving animals, we love seeing them go to safe forever homes even more. 
+                    Every cat and dog deserves the best match, and so do you. Take this quick compatibility quiz 
+                    to see which friends would fit the best with your current lifestyle!
+                </p>
+            </div>
+            
+            <!-- Right side - Getting Started -->
+            <div class="lg:w-1/2 flex flex-col items-center">
+                <h2 class="text-white text-2xl font-semibold mb-8">Getting Started</h2>
+                
+                <div class="space-y-8">
+                    <!-- Dog Option -->
+                    <div class="text-center" x-data="{ hover: false }">
+                        <div class="relative mb-4">
+                            <div 
+                                class="w-32 h-32 rounded-full overflow-hidden mx-auto transition-transform duration-300"
+                                :class="hover ? 'scale-110' : 'scale-100'"
+                                @mouseenter="hover = true"
+                                @mouseleave="hover = false"
+                            >
+                                <img 
+                                    src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=300&h=300&fit=crop&crop=face" 
+                                    alt="Happy Golden Retriever"
+                                    class="w-full h-full object-cover"
+                                >
+                            </div>
+                        </div>
+                        <a 
+                            href="/friendr/quiz?type=dog"
+                            class="inline-block bg-white text-purple-900 px-8 py-3 rounded-full font-semibold text-lg hover:bg-orange-400 hover:text-white transition-all duration-300 transform hover:scale-105 shadow-lg"
+                        >
+                            Find me a dog
+                        </a>
+                    </div>
+                    
+                    <!-- Cat Option -->
+                    <div class="text-center" x-data="{ hover: false }">
+                        <div class="relative mb-4">
+                            <div 
+                                class="w-32 h-32 rounded-full overflow-hidden mx-auto transition-transform duration-300"
+                                :class="hover ? 'scale-110' : 'scale-100'"
+                                @mouseenter="hover = true"
+                                @mouseleave="hover = false"
+                            >
+                                <img 
+                                    src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=300&h=300&fit=crop&crop=face" 
+                                    alt="Beautiful Tabby Cat"
+                                    class="w-full h-full object-cover"
+                                >
+                            </div>
+                        </div>
+                        <a 
+                            href="/friendr/quiz?type=cat"
+                            class="inline-block bg-white text-purple-900 px-8 py-3 rounded-full font-semibold text-lg hover:bg-orange-400 hover:text-white transition-all duration-300 transform hover:scale-105 shadow-lg"
+                        >
+                            Find me a cat
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

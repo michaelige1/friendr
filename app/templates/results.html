@@ -1,0 +1,414 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="min-h-screen" x-data="resultsData()">
+    <div class="container mx-auto px-6 py-12">
+        
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <h1 class="text-4xl lg:text-5xl font-bold text-white mb-4">
+                Woohoo! We have some adoptable <span class="text-orange-400">matches</span>!
+            </h1>
+            <div class="w-32 h-1 bg-orange-400 mx-auto"></div>
+        </div>
+
+        <!-- Loading State -->
+        <div x-show="loading" class="text-center py-16">
+            <div class="spinner mx-auto mb-4"></div>
+            <p class="text-white text-lg">Finding your perfect matches...</p>
+        </div>
+
+        <!-- Results Grid -->
+        <div x-show="!loading && matches.length > 0" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            
+            <!-- Pet Card Template -->
+            <template x-for="pet in matches" :key="pet.name">
+                <div class="pet-card bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    
+                    <!-- Pet Image -->
+                    <div class="relative h-64 overflow-hidden">
+                        <img 
+                            :src="pet.image_url" 
+                            :alt="pet.name"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+                            @error="handleImageError(\$event)"
+                        >
+                        <!-- Match Percentage Badge -->
+                        <div class="absolute top-4 right-4 bg-green-500 text-white px-3 py-1 rounded-full font-bold text-sm">
+                            <span x-text="Math.round(pet.match_percentage) + '%'"></span>
+                        </div>
+                    </div>
+                    
+                    <!-- Pet Info -->
+                    <div class="p-6">
+                        <!-- Pet Name -->
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center" x-text="pet.name"></h3>
+                        
+                        <!-- Pet Details Grid -->
+                        <div class="grid grid-cols-3 gap-4 text-center mb-4">
+                            <div>
+                                <p class="text-xs text-gray-500 uppercase tracking-wide">Match</p>
+                                <p class="font-bold text-green-600" x-text="Math.round(pet.match_percentage) + '%'"></p>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-500 uppercase tracking-wide">Size</p>
+                                <p class="font-bold text-gray-800" x-text="pet.size"></p>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-500 uppercase tracking-wide">Age</p>
+                                <p class="font-bold text-gray-800" x-text="Math.round(pet.age / 12) + ' yrs'"></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Pet Breed/Description -->
+                        <div class="text-center mb-4">
+                            <p class="text-gray-600" x-text="pet.breed"></p>
+                            <p class="text-sm text-gray-500 mt-1" x-text="pet.weight + ' lbs'"></p>
+                        </div>
+                        
+                        <!-- Compatibility Traits -->
+                        <div class="mb-4">
+                            <h4 class="text-sm font-semibold text-gray-700 mb-2">Personality Traits:</h4>
+                            <div class="grid grid-cols-3 gap-2 text-xs">
+                                <div class="text-center">
+                                    <div class="text-lg mb-1">⚡</div>
+                                    <div x-text="'Energy: ' + pet.energy + '/5'"></div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-lg mb-1">❤️</div>
+                                    <div x-text="'Affection: ' + pet.affection + '/5'"></div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-lg mb-1">🎓</div>
+                                    <div x-text="'Training: ' + pet.training + '/5'"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Action Buttons -->
+                        <div class="flex space-x-2">
+                            <button 
+                                @click="viewPetDetails(pet)"
+                                class="flex-1 bg-orange-400 hover:bg-orange-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300"
+                            >
+                                Learn More
+                            </button>
+                            <button 
+                                @click="contactShelter(pet)"
+                                class="flex-1 bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300"
+                            >
+                                Contact
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+
+        <!-- No Results State -->
+        <div x-show="!loading && matches.length === 0" class="text-center py-16">
+            <div class="text-6xl mb-4">😔</div>
+            <h2 class="text-2xl font-bold text-white mb-4">No matches found</h2>
+            <p class="text-purple-200 mb-8">Try adjusting your preferences or check back later for new arrivals!</p>
+            <a 
+                href="/friendr/quiz?type={{ pet_type }}"
+                class="bg-orange-400 hover:bg-orange-500 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300"
+            >
+                Retake Quiz
+            </a>
+        </div>
+
+        <!-- Action Buttons -->
+        <div x-show="!loading && matches.length > 0" class="text-center mt-12 space-y-4">
+            <div class="space-x-4">
+                <a 
+                    href="/friendr/quiz?type={{ pet_type }}"
+                    class="bg-white text-purple-900 hover:bg-gray-100 font-semibold py-3 px-6 rounded-full transition-colors duration-300"
+                >
+                    Retake Quiz
+                </a>
+                <a 
+                    href="/friendr"
+                    class="bg-orange-400 hover:bg-orange-500 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-300"
+                >
+                    Start Over
+                </a>
+            </div>
+            <p class="text-purple-200 text-sm">
+                Found <span x-text="matches.length"></span> great matches for you!
+            </p>
+        </div>
+    </div>
+
+    <!-- Pet Details Modal -->
+    <div x-show="showModal" x-cloak class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-2xl max-w-2xl w-full max-h-screen overflow-y-auto">
+            <div x-show="selectedPet">
+                <!-- Modal Header with Real Image -->
+                <div class="relative h-64 overflow-hidden">
+                    <img 
+                        :src="selectedPet?.image_url" 
+                        :alt="selectedPet?.name"
+                        class="w-full h-full object-cover"
+                    >
+                    <button 
+                        @click="closeModal()"
+                        class="absolute top-4 right-4 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-2 transition-all duration-300"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Modal Content -->
+                <div class="p-6">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4" x-text="selectedPet?.name"></h2>
+                    
+                    <!-- Pet Stats -->
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                        <div class="text-center p-3 bg-gray-50 rounded-lg">
+                            <p class="text-sm text-gray-500">Match</p>
+                            <p class="text-xl font-bold text-green-600" x-text="Math.round(selectedPet?.match_percentage) + '%'"></p>
+                        </div>
+                        <div class="text-center p-3 bg-gray-50 rounded-lg">
+                            <p class="text-sm text-gray-500">Age</p>
+                            <p class="text-xl font-bold" x-text="Math.round(selectedPet?.age / 12) + ' years'"></p>
+                        </div>
+                        <div class="text-center p-3 bg-gray-50 rounded-lg">
+                            <p class="text-sm text-gray-500">Size</p>
+                            <p class="text-xl font-bold" x-text="selectedPet?.size"></p>
+                        </div>
+                        <div class="text-center p-3 bg-gray-50 rounded-lg">
+                            <p class="text-sm text-gray-500">Weight</p>
+                            <p class="text-xl font-bold" x-text="selectedPet?.weight + ' lbs'"></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Description -->
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-2">About <span x-text="selectedPet?.name"></span></h3>
+                        <p class="text-gray-600">
+                            <span x-text="selectedPet?.name"></span> is a lovely <span x-text="selectedPet?.breed"></span> 
+                            looking for their forever home! They have a wonderful personality and would make a great 
+                            addition to the right family.
+                        </p>
+                    </div>
+                    
+                    <!-- Detailed Traits -->
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-2">Personality Details:</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="flex justify-between">
+                                <span>Energy Level:</span>
+                                <span class="font-semibold" x-text="selectedPet?.energy + '/5'"></span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Affection Level:</span>
+                                <span class="font-semibold" x-text="selectedPet?.affection + '/5'"></span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Good with Dogs:</span>
+                                <span class="font-semibold" x-text="selectedPet?.dogs + '/5'"></span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Good with Cats:</span>
+                                <span class="font-semibold" x-text="selectedPet?.cats + '/5'"></span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Good with Kids:</span>
+                                <span class="font-semibold" x-text="selectedPet?.kids + '/5'"></span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Training Ease:</span>
+                                <span class="font-semibold" x-text="selectedPet?.training + '/5'"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Action Buttons -->
+                    <div class="flex space-x-4">
+                        <button 
+                            @click="contactShelter(selectedPet)"
+                            class="flex-1 bg-orange-400 hover:bg-orange-500 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300"
+                        >
+                            Contact Shelter
+                        </button>
+                        <button 
+                            @click="closeModal()"
+                            class="flex-1 bg-gray-300 hover:bg-gray-400 text-gray-700 font-bold py-3 px-6 rounded-lg transition-colors duration-300"
+                        >
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+function resultsData() {
+    return {
+        loading: true,
+        matches: [],
+        showModal: false,
+        selectedPet: null,
+        
+        init() {
+            this.loadResults();
+        },
+        
+        async loadResults() {
+            try {
+                // Get pet type from URL
+                const urlParams = new URLSearchParams(window.location.search);
+                const petType = urlParams.get('type') || 'dog';
+                
+                // Get quiz data from localStorage or URL (you'll need to implement this)
+                // For now, using sample data - replace with actual quiz results
+                const sampleQuizData = {
+                    pet_type: petType,
+                    dogs: 3,
+                    cats: 4,
+                    kids: 3,
+                    energy: 4,
+                    affection: 4,
+                    training: 3
+                };
+                
+                // Call your actual API
+                const response = await fetch('/match_pet', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(sampleQuizData)
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: \${response.status}`);
+                }
+                
+                const result = await response.json();
+                
+                // Extract matches from the API response
+                this.matches = result.matches || [];
+                
+                console.log('API Response:', result);
+                console.log('Matches found:', this.matches.length);
+                
+            } catch (error) {
+                console.error('Error loading results:', error);
+                
+                // Fallback to mock data if API fails
+                this.matches = this.generateMockResults(urlParams.get('type') || 'dog');
+            } finally {
+                this.loading = false;
+            }
+        },
+        
+        generateMockResults(petType) {
+            // Fallback mock data in case API fails
+            console.log('Using fallback mock data');
+            
+            const mockResults = [
+                {
+                    name: "Luna",
+                    type: petType === 'dog' ? 'Dog' : 'Cat',
+                    breed: petType === 'dog' ? "Golden Retriever Mix" : "Domestic Shorthair",
+                    age: 24,
+                    size: "Small",
+                    weight: 8.2,
+                    dogs: 2,
+                    cats: 4,
+                    kids: 3,
+                    energy: 4,
+                    affection: 5,
+                    training: 3,
+                    match_percentage: 87.5,
+                    image_url: `http://localhost:8000/image/\${petType}/\${petType}_332.jpg`
+                },
+                {
+                    name: "Buddy",
+                    type: petType === 'dog' ? 'Dog' : 'Cat',
+                    breed: petType === 'dog' ? "Labrador Mix" : "Maine Coon",
+                    age: 45,
+                    size: petType === 'dog' ? "Large" : "Medium",
+                    weight: petType === 'dog' ? 68.3 : 14.8,
+                    dogs: 4,
+                    cats: 2,
+                    kids: 4,
+                    energy: 5,
+                    affection: 5,
+                    training: 5,
+                    match_percentage: 82.3,
+                    image_url: `http://localhost:8000/image/\${petType}/\${petType}_456.jpg`
+                }
+            ];
+            
+            return mockResults;
+        },
+        
+        handleImageError(event) {
+            // Fallback to emoji if image fails to load
+            console.log('Image failed to load:', event.target.src);
+            const petType = event.target.alt.toLowerCase().includes('dog') ? '🐕' : '🐱';
+            event.target.style.display = 'none';
+            event.target.parentElement.innerHTML = `
+                <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-purple-400 to-pink-400">
+                    <div class="text-6xl">\${petType}</div>
+                </div>
+            `;
+        },
+        
+        viewPetDetails(pet) {
+            this.selectedPet = pet;
+            this.showModal = true;
+            document.body.style.overflow = 'hidden';
+        },
+        
+        closeModal() {
+            this.showModal = false;
+            this.selectedPet = null;
+            document.body.style.overflow = 'auto';
+        },
+        
+        contactShelter(pet) {
+            alert(`Great choice! We'll connect you with the shelter about \${pet.name}.\n\nIn a real app, this would:\n• Open a contact form\n• Send your info to the shelter\n• Schedule a meet & greet\n• Provide shelter contact details`);
+        }
+    }
+}
+</script>
+{% endblock %}
+
+{% block extra_head %}
+<style>
+[x-cloak] { display: none !important; }
+
+.pet-card {
+    transition: all 0.3s ease;
+}
+
+.pet-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #fb923c;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+</style>
+{% endblock %}

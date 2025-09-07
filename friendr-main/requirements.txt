@@ -10,4 +10,3 @@ python-multipart        # For file uploads
 python-dotenv           # For environment variables
 matplotlib              # For plotting
 seaborn                 # For plotting
-jinja2                  # Template engine for HTML rendering

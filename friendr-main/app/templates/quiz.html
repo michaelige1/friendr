@@ -1,0 +1,656 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="min-h-screen" x-data="quizData()">
+    <div class="container mx-auto px-6 py-12">
+        
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <h1 class="text-3xl lg:text-4xl font-bold text-white mb-4">
+                Find Your Perfect {{ pet_type.title() }} Match
+            </h1>
+            <div class="w-24 h-1 bg-orange-400 mx-auto"></div>
+        </div>
+
+        <!-- Quiz Form -->
+        <div class="max-w-4xl mx-auto space-y-16">
+            
+            <!-- Questions 1-8 (existing ones) -->
+            <!-- Question 1: Dog Behavior Towards Dogs -->
+            <div class="question-section">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-white text-center mb-8">
+                    How important is your ideal {{ pet_type }}'s behavior towards {{ pet_type }}s?
+                </h2>
+                
+                <div class="relative max-w-md mx-auto">
+                    <input 
+                        type="range" 
+                        min="1" 
+                        max="3" 
+                        x-model="answers.dogsImportance"
+                        class="slider w-full h-2 bg-gray-300 rounded-lg appearance-none cursor-pointer"
+                    >
+                    
+                    <div class="flex justify-between text-white text-sm mt-4 px-2">
+                        <span>Not at all</span>
+                        <span>Somewhat</span>
+                        <span>Very</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 2: Time Introducing Dogs -->
+            <div class="question-section">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-white text-center mb-8">
+                    How much time are you ready to spend introducing a {{ pet_type }} to a {{ pet_type }}?
+                </h2>
+                
+                <div class="space-y-4 max-w-2xl mx-auto">
+                    <div 
+                        class="choice-card"
+                        :class="answers.dogIntroduction === 1 ? 'selected' : ''"
+                        @click="answers.dogIntroduction = 1"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I'm not planning on having {{ pet_type }}s around my {{ pet_type }}, 
+                            so it's fine if they don't get along with other {{ pet_type }}s.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.dogIntroduction === 2 ? 'selected' : ''"
+                        @click="answers.dogIntroduction = 2"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I'm good with a {{ pet_type }} who has not had 
+                            experience with other {{ pet_type }}s.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.dogIntroduction === 3 ? 'selected' : ''"
+                        @click="answers.dogIntroduction = 3"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I'm looking for a {{ pet_type }} who can get along with 
+                            other {{ pet_type }}s, and don't mind if it takes multiple 
+                            structured introductions.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.dogIntroduction === 4 ? 'selected' : ''"
+                        @click="answers.dogIntroduction = 4"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I'm looking for a {{ pet_type }} who is interested in most 
+                            {{ pet_type }}s and can successfully meet them in one 
+                            introduction session.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.dogIntroduction === 5 ? 'selected' : ''"
+                        @click="answers.dogIntroduction = 5"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I'm looking for a {{ pet_type }} who would do great with 
+                            pretty much any {{ pet_type }}-friendly {{ pet_type }}.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 3: Cat Behavior Importance -->
+            <div class="question-section">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-white text-center mb-8">
+                    How important is your ideal {{ pet_type }}'s behavior towards cats?
+                </h2>
+                
+                <div class="relative max-w-md mx-auto">
+                    <input 
+                        type="range" 
+                        min="1" 
+                        max="3" 
+                        x-model="answers.catsImportance"
+                        class="slider w-full h-2 bg-gray-300 rounded-lg appearance-none cursor-pointer"
+                    >
+                    
+                    <div class="flex justify-between text-white text-sm mt-4 px-2">
+                        <span>Not at all</span>
+                        <span>Somewhat</span>
+                        <span>Very</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 4: Cat Behavior Description -->
+            <div class="question-section">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-white text-center mb-8">
+                    Which statement best describes how your ideal {{ pet_type }} would behave around cats?
+                </h2>
+                
+                <div class="space-y-4 max-w-2xl mx-auto">
+                    <div 
+                        class="choice-card"
+                        :class="answers.catBehavior === 1 ? 'selected' : ''"
+                        @click="answers.catBehavior = 1"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I'm not planning on having cats around my {{ pet_type }}, 
+                            so it's fine if they don't get along with cats.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.catBehavior === 2 ? 'selected' : ''"
+                        @click="answers.catBehavior = 2"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I'm good with a {{ pet_type }} who has not had 
+                            experience with cats.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.catBehavior === 3 ? 'selected' : ''"
+                        @click="answers.catBehavior = 3"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I'm looking for a {{ pet_type }} who can get along with 
+                            dog-friendly cats, and don't mind if it takes 
+                            multiple structured introductions.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.catBehavior === 4 ? 'selected' : ''"
+                        @click="answers.catBehavior = 4"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I'm looking for a {{ pet_type }} who is interested in most 
+                            dog-friendly cats.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.catBehavior === 5 ? 'selected' : ''"
+                        @click="answers.catBehavior = 5"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I'm looking for a {{ pet_type }} who would do great with 
+                            pretty much any dog-friendly cat and who 
+                            prefers to be around cats.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 5: Kids Behavior Importance -->
+            <div class="question-section">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-white text-center mb-8">
+                    How important is your ideal {{ pet_type }}'s behavior towards kids?
+                </h2>
+                
+                <div class="relative max-w-md mx-auto">
+                    <input 
+                        type="range" 
+                        min="1" 
+                        max="3" 
+                        x-model="answers.kidsImportance"
+                        class="slider w-full h-2 bg-gray-300 rounded-lg appearance-none cursor-pointer"
+                    >
+                    
+                    <div class="flex justify-between text-white text-sm mt-4 px-2">
+                        <span>Not at all</span>
+                        <span>Somewhat</span>
+                        <span>Very</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 6: Kids Behavior Description -->
+            <div class="question-section">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-white text-center mb-8">
+                    Which statement best describes how your ideal {{ pet_type }} would behave around kids?
+                </h2>
+                
+                <div class="space-y-4 max-w-2xl mx-auto">
+                    <div 
+                        class="choice-card"
+                        :class="answers.kidsBehavior === 1 ? 'selected' : ''"
+                        @click="answers.kidsBehavior = 1"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I don't plan on being around kids and I'd be 
+                            happy with a {{ pet_type }} who isn't a kid fan.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.kidsBehavior === 2 ? 'selected' : ''"
+                        @click="answers.kidsBehavior = 2"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I'll be happy with a {{ pet_type }} who has never been 
+                            around kids.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.kidsBehavior === 3 ? 'selected' : ''"
+                        @click="answers.kidsBehavior = 3"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I would love a {{ pet_type }} who enjoys the company of 
+                            kids who are always quiet and respectful 
+                            towards animals.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.kidsBehavior === 4 ? 'selected' : ''"
+                        @click="answers.kidsBehavior = 4"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I would love a {{ pet_type }} who gets along with kids who 
+                            are relatively well-behaved, but may occasionally 
+                            run around and play in the same room.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.kidsBehavior === 5 ? 'selected' : ''"
+                        @click="answers.kidsBehavior = 5"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I would love a {{ pet_type }} who gets along with all kids, 
+                            no matter how energetic and playful they are!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 7: Unfamiliar People Importance -->
+            <div class="question-section">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-white text-center mb-8">
+                    How important is your ideal {{ pet_type }}'s behavior towards unfamiliar people?
+                </h2>
+                
+                <div class="relative max-w-md mx-auto">
+                    <input 
+                        type="range" 
+                        min="1" 
+                        max="3" 
+                        x-model="answers.strangersImportance"
+                        class="slider w-full h-2 bg-gray-300 rounded-lg appearance-none cursor-pointer"
+                    >
+                    
+                    <div class="flex justify-between text-white text-sm mt-4 px-2">
+                        <span>Not at all</span>
+                        <span>Somewhat</span>
+                        <span>Very</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 8: Unfamiliar People Behavior -->
+            <div class="question-section">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-white text-center mb-8">
+                    Which statement best describes how your ideal {{ pet_type }} would behave around new people?
+                </h2>
+                
+                <div class="space-y-4 max-w-2xl mx-auto">
+                    <div 
+                        class="choice-card"
+                        :class="answers.strangersBehavior === 1 ? 'selected' : ''"
+                        @click="answers.strangersBehavior = 1"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I don't intend to have my {{ pet_type }} around unfamiliar 
+                            people, so it's fine if my {{ pet_type }} prefers the 
+                            company of core family members.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.strangersBehavior === 2 ? 'selected' : ''"
+                        @click="answers.strangersBehavior = 2"
+                    >
+                        <p class="text-gray-800 text-center">
+                            I would be happy with a {{ pet_type }} who was selective 
+                            about making new friends, preferring quiet, 
+                            calm people with good {{ pet_type }} manners.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.strangersBehavior === 3 ? 'selected' : ''"
+                        @click="answers.strangersBehavior = 3"
+                    >
+                        <p class="text-gray-800 text-center">
+                            They can learn to be comfortable with just 
+                            about anybody, with proper introductions.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.strangersBehavior === 4 ? 'selected' : ''"
+                        @click="answers.strangersBehavior = 4"
+                    >
+                        <p class="text-gray-800 text-center">
+                            They can warm up to just about anyone!
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.strangersBehavior === 5 ? 'selected' : ''"
+                        @click="answers.strangersBehavior = 5"
+                    >
+                        <p class="text-gray-800 text-center">
+                            They don't know what a stranger is... every 
+                            human is a friend!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 9: Energy Level Importance -->
+            <div class="question-section">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-white text-center mb-8">
+                    How important is your ideal {{ pet_type }}'s energy level to you?
+                </h2>
+                
+                <div class="relative max-w-md mx-auto">
+                    <input 
+                        type="range" 
+                        min="1" 
+                        max="3" 
+                        x-model="answers.energyImportance"
+                        class="slider w-full h-2 bg-gray-300 rounded-lg appearance-none cursor-pointer"
+                    >
+                    
+                    <div class="flex justify-between text-white text-sm mt-4 px-2">
+                        <span>Not at all</span>
+                        <span>Somewhat</span>
+                        <span>Very</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 10: Energy Level Description -->
+            <div class="question-section">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-white text-center mb-8">
+                    Which statement best describes the energy level of your ideal {{ pet_type }}?
+                </h2>
+                
+                <div class="space-y-4 max-w-2xl mx-auto">
+                    <div 
+                        class="choice-card"
+                        :class="answers.energyLevel === 1 ? 'selected' : ''"
+                        @click="answers.energyLevel = 1"
+                    >
+                        <p class="text-gray-800 text-center">
+                            They are a chill couch potato.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.energyLevel === 2 ? 'selected' : ''"
+                        @click="answers.energyLevel = 2"
+                    >
+                        <p class="text-gray-800 text-center">
+                            My ideal {{ pet_type }} will need at most one daily outing 
+                            like 10 min stroll or short walk.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.energyLevel === 3 ? 'selected' : ''"
+                        @click="answers.energyLevel = 3"
+                    >
+                        <p class="text-gray-800 text-center">
+                            They will require a total half a mile of walk or 
+                            20 min playing total per day.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.energyLevel === 4 ? 'selected' : ''"
+                        @click="answers.energyLevel = 4"
+                    >
+                        <p class="text-gray-800 text-center">
+                            They will require at most 45 min of brisk 
+                            walking or jogging for 45 min or active play or 
+                            training at least 4 days a week.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.energyLevel === 5 ? 'selected' : ''"
+                        @click="answers.energyLevel = 5"
+                    >
+                        <p class="text-gray-800 text-center">
+                            They would do best with an hour of activities 
+                            like running, brisk walking, training, or active 
+                            play at least 5 days a week.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 11: Affection Level Importance -->
+            <div class="question-section">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-white text-center mb-8">
+                    How important is the level of affection your ideal {{ pet_type }} displays towards you?
+                </h2>
+                
+                <div class="relative max-w-md mx-auto">
+                    <input 
+                        type="range" 
+                        min="1" 
+                        max="3" 
+                        x-model="answers.affectionImportance"
+                        class="slider w-full h-2 bg-gray-300 rounded-lg appearance-none cursor-pointer"
+                    >
+                    
+                    <div class="flex justify-between text-white text-sm mt-4 px-2">
+                        <span>Not at all</span>
+                        <span>Somewhat</span>
+                        <span>Very</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 12: Affection Level Description -->
+            <div class="question-section">
+                <h2 class="text-2xl lg:text-3xl font-semibold text-white text-center mb-8">
+                    How affectionate is your ideal {{ pet_type }}?
+                </h2>
+                
+                <div class="space-y-4 max-w-2xl mx-auto">
+                    <div 
+                        class="choice-card"
+                        :class="answers.affectionLevel === 1 ? 'selected' : ''"
+                        @click="answers.affectionLevel = 1"
+                    >
+                        <p class="text-gray-800 text-center">
+                            Their love language doesn't have to be physical 
+                            touch.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.affectionLevel === 2 ? 'selected' : ''"
+                        @click="answers.affectionLevel = 2"
+                    >
+                        <p class="text-gray-800 text-center">
+                            They rarely ask for affection, but mostly prefer 
+                            their personal space.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.affectionLevel === 3 ? 'selected' : ''"
+                        @click="answers.affectionLevel = 3"
+                    >
+                        <p class="text-gray-800 text-center">
+                            They'll ask to be petted scratched, and cuddle 
+                            for few minutes every day
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.affectionLevel === 4 ? 'selected' : ''"
+                        @click="answers.affectionLevel = 4"
+                    >
+                        <p class="text-gray-800 text-center">
+                            They accept affection when offered, but will let 
+                            you know when the daily affection quota hasn't 
+                            been met.
+                        </p>
+                    </div>
+                    
+                    <div 
+                        class="choice-card"
+                        :class="answers.affectionLevel === 5 ? 'selected' : ''"
+                        @click="answers.affectionLevel = 5"
+                    >
+                        <p class="text-gray-800 text-center">
+                            They would prefer to be petted, scratched, and 
+                            cuddled just about every moment we are 
+                            together.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center">
+                <button 
+                    @click="submitQuiz()"
+                    :disabled="!isFormValid()"
+                    class="bg-orange-400 hover:bg-orange-500 disabled:bg-gray-400 disabled:cursor-not-allowed text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105"
+                >
+                    Find My Matches!
+                </button>
+                
+                <!-- Progress indicator -->
+                <p class="text-white mt-4 text-sm">
+                    <span x-text="getProgress()"></span> questions completed
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+function quizData() {
+    return {
+        answers: {
+            dogsImportance: 2,
+            dogIntroduction: null,
+            catsImportance: 2,
+            catBehavior: null,
+            kidsImportance: 2,
+            kidsBehavior: null,
+            strangersImportance: 2,
+            strangersBehavior: null,
+            energyImportance: 2,
+            energyLevel: null,
+            affectionImportance: 2,
+            affectionLevel: null
+        },
+        
+        isFormValid() {
+            const requiredAnswers = [
+                'dogIntroduction',
+                'catBehavior', 
+                'kidsBehavior',
+                'strangersBehavior',
+                'energyLevel',
+                'affectionLevel'
+            ];
+            
+            return requiredAnswers.every(key => this.answers[key] !== null);
+        },
+        
+        getProgress() {
+            const total = 12;
+            const completed = Object.values(this.answers).filter(val => val !== null).length;
+            return `\${completed}/\${total}`;
+        },
+        
+        submitQuiz() {
+            if (!this.isFormValid()) {
+                alert('Please answer all questions before submitting!');
+                return;
+            }
+            
+            console.log('Quiz answers:', this.answers);
+            
+            // Convert to API format
+            const quizData = {
+                dogs: this.answers.dogIntroduction,
+                cats: this.answers.catBehavior,
+                kids: this.answers.kidsBehavior,
+                energy: this.answers.energyLevel,
+                affection: this.answers.affectionLevel,
+                training: 3 // Default for now (no training questions yet)
+            };
+            
+            // Show loading and redirect to results
+            this.showLoading();
+            
+            setTimeout(() => {
+                // Redirect to results page with data
+                const params = new URLSearchParams({
+                    type: '{{ pet_type }}',
+                    data: JSON.stringify(quizData)
+                });
+                window.location.href = `/friendr/results?\${params.toString()}`;
+            }, 2000);
+        },
+        
+        showLoading() {
+            const loadingHtml = `
+                <div id="quizLoadingOverlay" class="loading-overlay">
+                    <div class="loading-content">
+                        <div class="spinner"></div>
+                        <h3 class="text-xl font-semibold text-gray-800 mt-4">Finding Your Perfect Matches</h3>
+                        <p class="text-gray-600 mt-2">Analyzing your preferences...</p>
+                    </div>
+                </div>
+            `;
+            document.body.insertAdjacentHTML('beforeend', loadingHtml);
+        }
+    }
+}
+</script>
+{% endblock %}
