@@ -12,6 +12,9 @@ SAVE_DIR.mkdir(exist_ok=True)
 def train_and_save_models():
     # Load dataset
     df = pd.read_csv(DATA_PATH)
+    
+    # Convert type column to lowercase for consistency
+    df['type'] = df['type'].str.lower()
 
     # Features used for clustering
     feature_cols = [
@@ -26,6 +29,14 @@ def train_and_save_models():
     # Split dataset into dogs and cats
     dog_df = df[df["type"] == "dog"]
     cat_df = df[df["type"] == "cat"]
+    
+    print(f"Found {len(dog_df)} dogs and {len(cat_df)} cats")
+
+    # Check if we have enough data for each type
+    if len(dog_df) == 0:
+        raise ValueError("No dogs found in the dataset")
+    if len(cat_df) == 0:
+        raise ValueError("No cats found in the dataset")
 
     # Scale features separately for each group
     scaler_dog = StandardScaler()

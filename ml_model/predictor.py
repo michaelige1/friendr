@@ -18,14 +18,13 @@ def predict_match(user_input: dict, pet_type: str, pet_data: pd.DataFrame):
     # Load appropriate model + scaler
     (kmeans, scaler) = load_model(pet_type)
 
-    # Use the correct feature columns that match the training data
     feature_cols = [
-        "dogs",
-        "cats", 
-        "kids",
-        "energy",
-        "affection",
-        "training"
+        "compatibility_with_cats",
+        "compatibility_with_dogs",
+        "compatibility_with_people",
+        "energy_level",
+        "training_willingness",
+        "affection_level"
     ]
 
     # Convert user input into numpy array and scale
