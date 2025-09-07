@@ -27,6 +27,7 @@ class Pet(BaseModel):
 class PetMatch(BaseModel):
     name: str
     type: Literal["dog", "cat"]
+    age: int  # Age in years (converted from months)
     match_percentage: float
     image_url: Optional[str] = None
 

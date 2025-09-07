@@ -30,6 +30,7 @@ class PetMatch(BaseModel):
     name: str
     type: Literal["dog", "cat"]
     age: int  # Age in years (converted from months)
+    breed: str
     size: str
     weight: float
     energy: int  # 1-5 energy level

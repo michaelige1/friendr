@@ -227,6 +227,11 @@ POST /match_pet
   "matches": [
     {
       "name": "Daisy",
+      "size": "Medium",
+      "weight": 32.7,
+      "energy": 3,
+      "affection": 4,
+      "training": 4,
       "type": "dog",
       "age": 10,
       "match_percentage": 97.88,
@@ -234,6 +239,11 @@ POST /match_pet
     },
     {
       "name": "Charlie",
+      "size": "Medium",
+      "weight": 31.2,
+      "energy": 3,
+      "affection": 4,
+      "training": 4,
       "type": "dog", 
       "age": 13,
       "match_percentage": 97.88,
@@ -241,6 +251,11 @@ POST /match_pet
     },
     {
       "name": "Ace",
+      "size": "Large",
+      "weight": 71.8,
+      "energy": 4,
+      "affection": 4,
+      "training": 4,
       "type": "dog",
       "age": 13,
       "match_percentage": 92.21,
@@ -254,186 +269,10 @@ POST /match_pet
 - `name`: Pet's name
 - `type`: Pet type ("dog" or "cat")
 - `age`: Pet's age in years (converted from months)
+- `size`: Pet's size (Small, Medium, Large)
+- `weight`: Pet's weight in pounds
+- `energy`: Pet's energy level (1-5 scale)
+- `affection`: Pet's affection level (1-5 scale)
+- `training`: Pet's training level (1-5 scale)
 - `match_percentage`: Compatibility percentage (boosted for demo purposes)
 - `image_url`: Direct URL to pet's image
-
-#### 3. UI-Specific API Endpoint
-```http
-POST /friendr/api/match
-```
-Same as `/match_pet` but specifically designed for UI integration.
-
-#### 4. Quiz Submission (UI)
-```http
-POST /friendr/quiz/submit
-```
-Handles quiz form submissions from the web interface.
-
-#### 5. Image Serving
-```http
-GET /image/{pet_type}/{filename}
-```
-
-**Parameters:**
-- `pet_type`: "dog" or "cat"
-- `filename`: Image filename (e.g., "dog_462.jpg")
-
-**Response:** Returns the image file directly
-
-**Example:**
-```http
-GET /image/dog/dog_462.jpg
-```
-
-#### 6. API Information
-```http
-GET /api-info
-```
-Returns comprehensive API documentation and available endpoints.
-
-## 🧪 Testing
-
-### Web Interface Testing
-
-1. **Start the server:**
-   ```bash
-   python -m uvicorn app.main:app --reload
-   ```
-
-2. **Open your browser and visit:**
-   - `http://localhost:8000/friendr` - Landing page
-   - `http://localhost:8000/friendr/quiz?type=dog` - Dog quiz
-   - `http://localhost:8000/friendr/quiz?type=cat` - Cat quiz
-
-3. **Complete the quiz and view results**
-
-### Manual API Testing with cURL
-
-```bash
-# Health check
-curl http://localhost:8000/health
-
-# Pet matching example
-curl -X POST "http://localhost:8000/match_pet" \
-     -H "Content-Type: application/json" \
-     -d '{
-       "pet_type": "cat",
-       "dogs": 3,
-       "cats": 5,
-       "kids": 4,
-       "energy": 2,
-       "affection": 5,
-       "training": 2
-     }'
-
-# Test image serving
-curl http://localhost:8000/image/dog/dog_462.jpg
-
-# API information
-curl http://localhost:8000/api-info
-```
-
-### Testing with Python requests
-
-```python
-import requests
-
-# Test pet matching
-response = requests.post(
-    "http://localhost:8000/match_pet",
-    json={
-        "pet_type": "dog",
-        "dogs": 4,
-        "cats": 2,
-        "kids": 5,
-        "energy": 3,
-        "affection": 4,
-        "training": 3
-    }
-)
-
-print(response.json())
-
-# Test image serving
-image_response = requests.get("http://localhost:8000/image/dog/dog_462.jpg")
-print(f"Image size: {len(image_response.content)} bytes")
-```
-
-## 🔧 Development
-
-### Project Structure Benefits
-
-- **Full-Stack Integration**: Seamless API and web interface
-- **Modular Design**: Easy to add new features or modify existing ones
-- **Separation of Concerns**: Clear boundaries between data, business logic, API, and UI layers
-- **Testability**: Each component can be tested independently
-- **Maintainability**: Changes in one area don't affect others
-
-### Frontend Technologies
-
-- **Tailwind CSS**: Utility-first CSS framework for responsive design
-- **Alpine.js**: Lightweight JavaScript framework for interactivity
-- **HTMX**: Modern HTML over the wire for dynamic content
-- **Jinja2**: Template engine for server-side rendering
-
-### Adding New Features
-
-1. **New Pet Types**: Add to the `pet_type` literal in schemas
-2. **New Matching Criteria**: Extend the feature columns in trainer and predictor
-3. **New API Endpoints**: Add to `app/main.py` following existing patterns
-4. **New UI Pages**: Create templates in `app/templates/` and add routes
-5. **New Services**: Create in `app/services/` with proper abstractions
-
-### Data Processing Notes
-
-- **Age Conversion**: Pet ages are stored in months but returned in years (rounded)
-- **Match Percentage Boosting**: Demo version adds 40% to match percentages for better presentation
-- **Duplicate Handling**: Pets with identical personality profiles are deduplicated
-- **Image Assignment**: Each pet gets one unique image from the local image collection
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Model not found error**: Run `python -m ml_model.trainer` to generate models
-2. **Import errors**: Ensure virtual environment is activated
-3. **Port already in use**: Change port with `uvicorn app.main:app --port 8001`
-4. **Image not found**: Ensure images are in `data/images/dogs/` and `data/images/cats/`
-5. **uvicorn command not found**: Use `python -m uvicorn` instead of just `uvicorn`
-6. **Template not found**: Ensure `app/templates/` directory exists with HTML files
-7. **Static files not loading**: Check that `app/static/` directory exists with CSS/JS files
-
-### Server Startup Issues
-
-If you encounter issues starting the server:
-
-```bash
-# Check if port is in use
-lsof -i :8000
-
-# Kill existing processes
-pkill -f uvicorn
-
-# Start with verbose output
-python -m uvicorn app.main:app --reload --log-level debug
-```
-
-### Support
-
-For support, please open an issue on [GitHub](https://github.com/michaelige1/friendr/issues).
-
----
-
-**Made with ❤️ for pet lovers everywhere**

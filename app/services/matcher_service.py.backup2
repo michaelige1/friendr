@@ -36,6 +36,7 @@ def match_pet(user_input: dict):
             "name": pet["name"],
             "type": pet["type"],
             "age": age_in_years,
+            "breed": pet["breed"],
             "size": pet["size"],
             "weight": pet["weight"],
             "energy": pet["energy"],
