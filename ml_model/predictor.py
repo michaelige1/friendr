@@ -18,13 +18,14 @@ def predict_match(user_input: dict, pet_type: str, pet_data: pd.DataFrame):
     # Load appropriate model + scaler
     (kmeans, scaler) = load_model(pet_type)
 
+    # Use the correct feature columns that match the training data
     feature_cols = [
-        "compatibility_with_cats",
-        "compatibility_with_dogs",
-        "compatibility_with_people",
-        "energy_level",
-        "training_willingness",
-        "affection_level"
+        "dogs",
+        "cats", 
+        "kids",
+        "energy",
+        "affection",
+        "training"
     ]
 
     # Convert user input into numpy array and scale
@@ -50,6 +51,6 @@ def predict_match(user_input: dict, pet_type: str, pet_data: pd.DataFrame):
     pets = pets.copy()
     pets["match_percentage"] = similarities
 
-    # Return top 6 matches
+    # Return top 6 matches (configurable - change head(6) to head(n) for different number)
     top_matches = pets.sort_values("match_percentage", ascending=False).head(6)
     return top_matches.to_dict(orient="records")
