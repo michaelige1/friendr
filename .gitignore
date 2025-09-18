@@ -202,3 +202,9 @@ logs/
 # Temporary files
 *.tmp
 *.temp
+
+# Project Env files
+.env/
+
+# Logs
+logs/
