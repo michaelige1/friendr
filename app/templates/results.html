@@ -56,13 +56,13 @@
                             </div>
                             <div>
                                 <p class="text-xs text-gray-500 uppercase tracking-wide">Age</p>
-                                <p class="font-bold text-gray-800" x-text="Math.round(pet.age / 12) + ' yrs'"></p>
+                                <p class="font-bold text-gray-800" x-text="pet.age + ' yrs'"></p>
                             </div>
                         </div>
                         
-                        <!-- Pet Breed/Description -->
+                        <!-- Pet Description -->
                         <div class="text-center mb-4">
-                            <p class="text-gray-600" x-text="pet.breed"></p>
+                            <p class="text-gray-600" x-text="pet.type.charAt(0).toUpperCase() + pet.type.slice(1)"></p>
                             <p class="text-sm text-gray-500 mt-1" x-text="pet.weight + ' lbs'"></p>
                         </div>
                         
@@ -173,7 +173,7 @@
                         </div>
                         <div class="text-center p-3 bg-gray-50 rounded-lg">
                             <p class="text-sm text-gray-500">Age</p>
-                            <p class="text-xl font-bold" x-text="Math.round(selectedPet?.age / 12) + ' years'"></p>
+                            <p class="text-xl font-bold" x-text="selectedPet?.age + ' years'"></p>
                         </div>
                         <div class="text-center p-3 bg-gray-50 rounded-lg">
                             <p class="text-sm text-gray-500">Size</p>
@@ -189,7 +189,7 @@
                     <div class="mb-6">
                         <h3 class="text-lg font-semibold mb-2">About <span x-text="selectedPet?.name"></span></h3>
                         <p class="text-gray-600">
-                            <span x-text="selectedPet?.name"></span> is a lovely <span x-text="selectedPet?.breed"></span> 
+                            <span x-text="selectedPet?.name"></span> is a lovely <span x-text="selectedPet?.type"></span> 
                             looking for their forever home! They have a wonderful personality and would make a great 
                             addition to the right family.
                         </p>
@@ -206,18 +206,6 @@
                             <div class="flex justify-between">
                                 <span>Affection Level:</span>
                                 <span class="font-semibold" x-text="selectedPet?.affection + '/5'"></span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span>Good with Dogs:</span>
-                                <span class="font-semibold" x-text="selectedPet?.dogs + '/5'"></span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span>Good with Cats:</span>
-                                <span class="font-semibold" x-text="selectedPet?.cats + '/5'"></span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span>Good with Kids:</span>
-                                <span class="font-semibold" x-text="selectedPet?.kids + '/5'"></span>
                             </div>
                             <div class="flex justify-between">
                                 <span>Training Ease:</span>
@@ -267,43 +255,31 @@ function resultsData() {
                 const urlParams = new URLSearchParams(window.location.search);
                 const petType = urlParams.get('type') || 'dog';
                 
-                // Get quiz data from localStorage or URL (you'll need to implement this)
-                // For now, using sample data - replace with actual quiz results
-                const sampleQuizData = {
-                    pet_type: petType,
-                    dogs: 3,
-                    cats: 4,
-                    kids: 3,
-                    energy: 4,
-                    affection: 4,
-                    training: 3
-                };
+                // Try to get results from localStorage first
+                const storedResults = localStorage.getItem('quizResults');
+                const storedPetType = localStorage.getItem('petType');
                 
-                // Call your actual API
-                const response = await fetch('/match_pet', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(sampleQuizData)
-                });
-                
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: \${response.status}`);
+                if (storedResults && storedPetType === petType) {
+                    console.log('Loading results from localStorage');
+                    const result = JSON.parse(storedResults);
+                    this.matches = result.matches || [];
+                    
+                    // Clear stored data after loading
+                    localStorage.removeItem('quizResults');
+                    localStorage.removeItem('petType');
+                } else {
+                    // Fallback to mock data if no stored results
+                    console.log('No stored results found, using mock data');
+                    this.matches = this.generateMockResults(petType);
                 }
                 
-                const result = await response.json();
-                
-                // Extract matches from the API response
-                this.matches = result.matches || [];
-                
-                console.log('API Response:', result);
                 console.log('Matches found:', this.matches.length);
                 
             } catch (error) {
                 console.error('Error loading results:', error);
                 
-                // Fallback to mock data if API fails
+                // Fallback to mock data if anything fails
+                const urlParams = new URLSearchParams(window.location.search);
                 this.matches = this.generateMockResults(urlParams.get('type') || 'dog');
             } finally {
                 this.loading = false;
@@ -317,35 +293,27 @@ function resultsData() {
             const mockResults = [
                 {
                     name: "Luna",
-                    type: petType === 'dog' ? 'Dog' : 'Cat',
-                    breed: petType === 'dog' ? "Golden Retriever Mix" : "Domestic Shorthair",
-                    age: 24,
+                    type: petType,
+                    age: 2, // Age in years (not months)
                     size: "Small",
                     weight: 8.2,
-                    dogs: 2,
-                    cats: 4,
-                    kids: 3,
                     energy: 4,
                     affection: 5,
                     training: 3,
                     match_percentage: 87.5,
-                    image_url: `http://localhost:8000/image/\${petType}/\${petType}_332.jpg`
+                    image_url: `/image/\${petType}/\${petType}_332.jpg`
                 },
                 {
                     name: "Buddy",
-                    type: petType === 'dog' ? 'Dog' : 'Cat',
-                    breed: petType === 'dog' ? "Labrador Mix" : "Maine Coon",
-                    age: 45,
+                    type: petType,
+                    age: 4, // Age in years (not months)
                     size: petType === 'dog' ? "Large" : "Medium",
                     weight: petType === 'dog' ? 68.3 : 14.8,
-                    dogs: 4,
-                    cats: 2,
-                    kids: 4,
                     energy: 5,
                     affection: 5,
                     training: 5,
                     match_percentage: 82.3,
-                    image_url: `http://localhost:8000/image/\${petType}/\${petType}_456.jpg`
+                    image_url: `/image/\${petType}/\${petType}_456.jpg`
                 }
             ];
             

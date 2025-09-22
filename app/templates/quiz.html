@@ -607,7 +607,7 @@ function quizData() {
             return `\${completed}/\${total}`;
         },
         
-        submitQuiz() {
+        async submitQuiz() {
             if (!this.isFormValid()) {
                 alert('Please answer all questions before submitting!');
                 return;
@@ -617,6 +617,7 @@ function quizData() {
             
             // Convert to API format
             const quizData = {
+                pet_type: '{{ pet_type }}',
                 dogs: this.answers.dogIntroduction,
                 cats: this.answers.catBehavior,
                 kids: this.answers.kidsBehavior,
@@ -625,17 +626,38 @@ function quizData() {
                 training: 3 // Default for now (no training questions yet)
             };
             
-            // Show loading and redirect to results
+            // Show loading
             this.showLoading();
             
-            setTimeout(() => {
-                // Redirect to results page with data
-                const params = new URLSearchParams({
-                    type: '{{ pet_type }}',
-                    data: JSON.stringify(quizData)
+            try {
+                // Submit to backend API
+                const response = await fetch('/friendr/api/match', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(quizData)
                 });
-                window.location.href = `/friendr/results?${params.toString()}`;
-            }, 2000);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const result = await response.json();
+                console.log('API Response:', result);
+                
+                // Store results in localStorage for results page
+                localStorage.setItem('quizResults', JSON.stringify(result));
+                localStorage.setItem('petType', '{{ pet_type }}');
+                
+                // Redirect to results page
+                window.location.href = `/friendr/results?type={{ pet_type }}`;
+                
+            } catch (error) {
+                console.error('Error submitting quiz:', error);
+                this.hideLoading();
+                alert('Sorry, there was an error processing your quiz. Please try again.');
+            }
         },
         
         showLoading() {
