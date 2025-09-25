@@ -41,6 +41,7 @@ def match_pet(user_input: dict):
             "energy": pet["energy"],
             "affection": pet["affection"],
             "training": pet["training"],
+            "new_people": pet["new_people"],
             "match_percentage": round(boosted_percentage, 2),
             "image_url": pet.get("image_url", None),
         })

@@ -29,7 +29,8 @@ def train_and_save_models():
         "kids",
         "energy",
         "affection",
-        "training"
+        "training",
+        "new_people"
     ]
     
     # Find duplicates based on personality profile
@@ -42,7 +43,7 @@ def train_and_save_models():
     if duplicate_count > 0:
         print(f"Duplicate personality profiles found:")
         duplicate_rows = df[duplicates]
-        print(duplicate_rows[['type', 'name', 'dogs', 'cats', 'kids', 'energy', 'affection', 'training']].to_string(index=False))
+        print(duplicate_rows[['type', 'name', 'dogs', 'cats', 'kids', 'energy', 'affection', 'training', "new_people"]].to_string(index=False))
         
         # Remove duplicates, keeping first occurrence
         df_cleaned = df.drop_duplicates(subset=personality_cols, keep='first')
@@ -65,7 +66,8 @@ def train_and_save_models():
         "kids",
         "energy",
         "affection",
-        "training"
+        "training",
+        "new_people"
     ]
 
     # Split dataset into dogs and cats
