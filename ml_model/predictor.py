@@ -6,6 +6,8 @@ from pathlib import Path
 
 SAVE_DIR = Path("saved_models")
 
+NUM_MATCHES = 6  # Number of top matches to return
+
 def load_model(pet_type: str):
     if pet_type == "dog":
         return joblib.load(SAVE_DIR / "kmeans_dog.pkl")
@@ -25,7 +27,8 @@ def predict_match(user_input: dict, pet_type: str, pet_data: pd.DataFrame):
         "kids",
         "energy",
         "affection",
-        "training"
+        "training",
+        "new_people"
     ]
 
     # Convert user input into numpy array and scale
@@ -52,5 +55,5 @@ def predict_match(user_input: dict, pet_type: str, pet_data: pd.DataFrame):
     pets["match_percentage"] = similarities
 
     # Return top 6 matches (configurable - change head(6) to head(n) for different number)
-    top_matches = pets.sort_values("match_percentage", ascending=False).head(6)
+    top_matches = pets.sort_values("match_percentage", ascending=False).head(NUM_MATCHES)
     return top_matches.to_dict(orient="records")

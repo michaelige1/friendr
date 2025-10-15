@@ -14,7 +14,7 @@ limit = 100
 logger = None
 
 csv_keys = [
-    'species', 
+    'type', 
     'name', 
     'age', 
     'breed', 
@@ -25,6 +25,7 @@ csv_keys = [
     'kids', 
     'energy', 
     'affection', 
+    'new_people',
     'training', 
     'image_url'
 ]
@@ -55,7 +56,7 @@ def transform_data(data):
             continue
 
         transformed_animal = {}
-        transformed_animal['species'] = animal.Type
+        transformed_animal['type'] = animal.Type
         transformed_animal['name'] = animal.Name
         transformed_animal['age'] = animal.Age
         transformed_animal['breed'] = animal.Breed
@@ -127,6 +128,8 @@ def get_attributes(animal, transformed_animal):
             transformed_animal['energy'] = m.group(1)
         elif m := re.match(r"-Affection Level: ([0-9])\).*", attribute.AttributeName):
             transformed_animal['affection'] = m.group(1)
+        elif m := re.match(r"-New people: ([0-9])\).*", attribute.AttributeName):
+            transformed_animal['new_people'] = m.group(1)
         
     # print("Transformed animal: {}".format(transformed_animal))
     

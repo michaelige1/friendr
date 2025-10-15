@@ -11,3 +11,4 @@ python-dotenv           # For environment variables
 matplotlib              # For plotting
 seaborn                 # For plotting
 jinja2                  # Template engine for HTML rendering
+requests                # Requests library for API calls

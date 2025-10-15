@@ -1,340 +1,338 @@
-species,name,age,breed,size,weight,dogs,cats,kids,energy,affection,training,image_url
-Dog,Swiffer,24,Mixed Breed (Large),,46.2,4,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a9d545a9a1b5be7c907f135e11badf17/14dfada9514cfa4a39bae377b5664a57.jpg
-Cat,Belle,108,Domestic Longhair,,5.47,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Maxie,199,Persian/Himalayan,,5.19,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Chloe,199,Domestic Longhair,,9.6,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Mao,199,Domestic Shorthair,,11.3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/7121674acf3d0a8a622c889fca1c20a8/20190910104553.png
-Cat,Dean,136,Domestic Longhair,,12,2,1,1,3,3,3,https://new-s3.shelterluv.com/profile-pictures/72a8a2b8d9b80a05e1cb9fe9c4c1163a/20241208132958.png
-Cat,Simba,158,Domestic Shorthair,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4dc32b0d93a7892930fbd9e2d70e8e7e/20190911105610.png
-Cat,Reversi,139,Domestic Shorthair,,9,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/8becec302de90c1ab7409ade443aa133/20190910110649.png
-Dog,Milo fka Sam,139,Mixed Breed (Medium),Medium (20-59),59.7,1,1,1,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d9dc74b308ba54030d05189722ded854/20190914111736.png
-Dog,Andi,165,Mixed Breed (Large),Large (60-99),53.8,3,1,3,2,3,3,https://new-s3.shelterluv.com/profile-pictures/b41d223b544a346b0248209c07202303/20220923101545.png
-Cat,Arthur,222,Domestic Shorthair,,6.4,2,1,2,2,3,3,https://new-s3.shelterluv.com/profile-pictures/84ca3b30be0b452ec19251fc07ceaacb/20190910093246.png
-Dog,Nebula,75,Mixed Breed (Medium),Medium (20-59),67.8,5,2,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cd53be4b01f94be92ccd33fcc59f3556/20240609085851.png
-Cat,Taylor Swift,145,Domestic Longhair,,12.4,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/94fab2460153bfe00253b9dacc3e56c4/20230821133927.png
-Cat,Cardamom,55,Domestic Shorthair,,11.7,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/435873092a158ab90b90702c58d7f3f4/20220618094348.png
-Dog,Lulu,117,Mixed Breed (Medium),Medium (20-59),56.6,1,1,1,3,3,3,https://new-s3.shelterluv.com/profile-pictures/246cd2a4b7fd8b625de5116768bfedd5/20240321083823.png
-Dog,Apollo,96,Mixed Breed (Large),Large (60-99),68.6,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3fa7f2f8cca9e0d7dd1361af64eac5f8/20220706115226.png
-Dog,Ted,42,Mixed Breed (Large),Large (60-99),77,2,1,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e79bd0bc942111eb7224c280cdf1f4e6/93843ae33d13bc52ec01d09cecc158e6.jpg
-Cat,Pimms,78,Domestic Shorthair,,12.6,2,1,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/52cf2084b8b4dc290a30b98e14878c45/20240328092107.png
-Dog,Curie,20,Mixed Breed (Medium),Medium (20-59),65.2,4,4,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/568a76254f4c8b9f44dffb151fb7b5ca/20241004071145.png
-Dog,Julio,104,Mixed Breed (Medium),Large (60-99),71,3,1,1,3,3,3,https://new-s3.shelterluv.com/profile-pictures/328a740690b5610408b7122a92893c1b/20240321085359.png
-Dog,Birdie,90,Mixed Breed (Large),Large (60-99),82.4,1,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/044efc01107705615afe80486da1d563/4b36c323583039e636422db0c9d2c690.jpeg
-Cat,Rosie,68,Domestic Shorthair,,6.6,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0d70b08131f4658867e1160b1e768a79/20240321082737.png
-Cat,Swiss,13,Domestic Shorthair,,7.25,3,5,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/92a094402292c9168465a512945e60bc/9217b7d7fca9fffa06734a2e86bb14ff.jpg
-Dog,Alexandra,81,Mixed Breed (Medium),Medium (20-59),33,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/44cafd961ee8fcf4cc7e4ed7314bd04f/20221209084753.png
-Dog,Noodle,63,Mixed Breed (Medium),Medium (20-59),59,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6c465c963ae85e2c73d88ee015208c49/20230725123806.png
-Dog,Appa,87,Mixed Breed (Large),Medium (20-59),63,1,1,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/98fd39c5c7b872d0f95d994a243a392d/20230304114813.png
-Dog,Jack,77,Mixed Breed (Large),Medium (20-59),64,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/20f1d8e6e1655a5e47cc46098a8c510d/20221128055210.png
-Cat,Stardust,40,Domestic Shorthair,,10.63,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4fa2589533c1e6d8176d7e446f2cf32c/a24c070fb1fce50a243862e5b1c531f0.jpg
-Dog,Kazoo,62,Mixed Breed (Medium),,68.6,2,2,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/7c77ed65a582106fdc0f3fbd82c916b2/f5c06c5fbf65a5d6d572fa323637db5c.jpeg
-Cat,Daisy,65,Domestic Shorthair,,8.67,2,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3a2010e1ec871ceb9a056be273872bb3/20241206143427.png
-Cat,Twin,181,Domestic Longhair,,9.6,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/ffddb84562f68504b9468bac5c8c1465/20241208065035.png
-Dog,Calum,152,Mixed Breed (Large),Large (60-99),67,3,2,1,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b16fe0c45ffd1c5fd3f9f052568dd503/20240321081045.png
-Cat,Leah,110,Domestic Shorthair,,13.3,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cb285e3abb5bfd76fc2aaeb40f7687fb/20240321083100_0.png
-Cat,Inosuke,53,Domestic Shorthair,,10.88,1,3,5,2,3,3,https://new-s3.shelterluv.com/profile-pictures/c72e691ef467521f754339102478f91e/2356755cedea0d9d22b46ddadd7a3566.jpg
-Dog,Dunkin,63,Mixed Breed (Medium),Small (1-19),71,2,1,3,2,3,3,https://new-s3.shelterluv.com/profile-pictures/df16d1970b05d2c977ce4e4801cb7b53/20240205125718.png
-Dog,CJ,80,Mixed Breed (Large),Large (60-99),92,3,1,4,2,3,3,https://new-s3.shelterluv.com/profile-pictures/46bd5dc7a97d2263bd77276311a463fa/20240408132817.png
-Cat,Tesla,122,Domestic Shorthair,,5.76,2,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6e642940a667a76ec894d985a12da1e1/20230725130119.png
-Dog,Teddy,109,Mixed Breed (Large),Large (60-99),62,3,2,1,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3cb4423931d455e9db75519a9d8e03d8/20240328092850.png
-Dog,Peaches,49,Mixed Breed (Large),Large (60-99),45,2,1,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/058e1f0215acd35f3e8e4dd16cb53571/20220808085233.png
-Cat,Marcy,73,Domestic Shorthair,,8.6,2,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e8296eb5ae27a8296ae2d9dedc19daa8/20240328094818.png
-Dog,Strawberry,76,Mixed Breed (Large),Large (60-99),56.6,1,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0f1d8d0163870351c1422a8bc83022de/20240508145033.png
-Cat,Hanna,149,Domestic Shorthair,,12.18,2,1,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0e6dac5d5f0f6b46cfda966cb1119584/20210610155848.png
-Cat,Sprinkles,57,Domestic Shorthair,,18.94,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/05e134860321eb8ad61907de1bcd858f/20240328090510.png
-Cat,Sookie,52,Domestic Shorthair,,9.18,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/c55e91d785625f343957b1befd19e342/20240516064117.png
-Cat,Maya,75,Domestic Shorthair,,8.16,2,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a2c2677ae06fb27060cdb3a0a6b4fe1b/20240328100929.png
-Dog,Brownie,29,Mixed Breed (Medium),Medium (20-59),46,4,2,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/74cfaccf73f0d570384f40902715c8ab/a3bd737113af12853cbd686d55a77a7f.jpg
-Cat,Yuki,149,Domestic Shorthair,,11.75,2,3,4,2,3,3,https://new-s3.shelterluv.com/profile-pictures/97824d60ae5031ba834737b38bcc8764/20230508064533.png
-Cat,Hey It's Franklin,105,Domestic Shorthair,,11.88,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b6fa2a071f5db5429e38c073ef0f5e28/7f6b1ba6adc4e5215267e2fe65b6a3dd.jpeg
-Dog,Banh Mi,18,Mixed Breed (Medium),,54.8,3,1,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4055fc9bc5003d4865b527395767034b/129949c2395182f9f83b794cc9be520d.jpg
-Cat,Michita,14,Domestic Shorthair,,6.94,5,5,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/5f612406acdff9c772a953e870fd212a/730f854208571b6751d50f603e1b5ae4.jpeg
-Cat,Michuna,14,Domestic Shorthair/Domestic Shorthair,,8.67,5,5,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/211ce4cb0f1ee1f8aebb81fa8c7b0aa2/222d257dce27f459e43c8857dc3ace37.jpeg
-Cat,Calimero,24,Domestic Shorthair,,13.23,1,1,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3089a31a56ff380476a48bfc5d6a4663/0cfe7316fc98bb61f03f15af4144c538.jpg
-Cat,Gru,188,Domestic Shorthair,,8.4,2,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/bce7f7b47842adc35654350b45e6d915/69fb2e2ccc0bd941b2a8bd7fb884a971.jpg
-Dog,Fancy Fred,10,Mixed Breed (Large),,43.2,3,2,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/80a20a40eb81a5d36049659fd1f169df/d47af568128a7c9be8f916c7eb4cff95.jpg
-Dog,Ryder,90,Mixed Breed (Medium),,61,4,1,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4255ed59ccd88bb747c9d553b23d3417/66364f078830a1569bc8f15173ce67bd.jpg
-Cat,Neehna,13,Domestic Shorthair,,12,2,5,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/75f5a3baff5e9b0db6c85cc9cbeab32e/da734b3e195976bd880eeeab6f76ed2b.jpg
-Cat,Princess Bean,15,Domestic Shorthair,,7.94,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/be44de4e6b95c69462745bc7e60c6710/82ea01175858aad6dcedbbe9aebe9a3f.jpeg
-Cat,Stevie Wonpurr,18,Domestic Shorthair,,12.5,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b7b8c69dadfa351fe966943f279c2e26/c5eb66bef701155efc526566d1eb2900.jpg
-Cat,Stanley Michael,6,Domestic Shorthair,,6.51,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b462996bf1b60315f6d334f7c55b071c/97a4e090eef136079413f3f1647e122a.jpg
-Dog,Ozzy Pawsborne,41,Mixed Breed (Medium),Medium (25-59),52,4,3,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/87d819f866cda9c50e5f0260d6bbd724/11aa14db711405e9f0f991a5b043f296.jpg
-Cat,Georgia O'Keeffe,41,Domestic Shorthair,,7.69,2,1,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0757e78f746daa97c953f203004641fb/07815b09e228a4e0b2b49b6c9ae17104.jpg
-Cat,Sir Georgie,6,Domestic Shorthair,,4.8,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/40660cad50c63de1dbd90c048d7a24c1/211454ebeb744ec9bbc26db357b8a45d.jpg
-Cat,Luna Fry,17,Domestic Shorthair,,6.46,2,2,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e812e7b4ca158762b51cc48065f13f11/5b8800b3412f8ab7b1a3cd4e866079fa.jpg
-Cat,MooMoo,12,Domestic Shorthair,,7.53,2,1,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3f3fb4822fc6fbeaa96dfd764baf1c00/03a566fc16585181176bed30de367dcf.jpg
-Cat,Power,18,Domestic Shorthair,,8.67,3,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/7a9c0d465d45a80017280440328e1590/490e4929853a87d6a2e010f0f36ae2ad.jpg
-Cat,Carmen San Diego,64,Domestic Shorthair,,10.1,2,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/8b52221706bc98fb1e74ac620e28057e/bd477d2694838992849414807e1fc566.jpg
-Dog,Winston,80,Mixed Breed (Medium),Medium (25-59),49.2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b78500bd59b8dd52f1c8206800593635/504ef61288c891864148e5a9fdfa93cd.jpeg
-Cat,Whiteclaw,4,Domestic Shorthair,,5.65,3,3,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/5df4f9048469ca5a616fe1dce8772ba6/447eed3a3f2f9e8e81db2d2734d55631.jpg
-Dog,Millie,109,Mixed Breed (Medium),Medium (25-59),49,3,1,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4fe35c61e12c12bc88686f58ef72c445/fd994c46dd4e7c2ffa8ec76183f8a239.jpg
-Cat,Limahl,4,Domestic Shorthair,,1.433,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/623df3a9474490a688cc84ba388d1d1c/7e7731bff6e9d64bccaee1a1c8456e91.jpg
-Cat,Mochi,5,Domestic Shorthair,,4.46,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9c34c19166d258a3899df61bc7e946ed/454156bd16ca5eaa7a4f2b9ca17ab7ff.jpg
-Cat,Faolan,5,Domestic Shorthair,,4.6,3,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4c0d66efe159f6716257ee1c22ae1486/441a25a2587c122896a63aed3d4d1f34.jpg
-Cat,Yoshi,20,Domestic Shorthair,,13.4,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/f8e581c38c095ed65b306b2b480c7c7c/190168a83a4d2822bfc57fceb19c7948.jpg
-Cat,Lucy Goosey,5,Domestic Shorthair,,2.52,2,4,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/bcc7382c48f8b7492e0e3ae932b96ecc/d5e781b046fe34e6c08c29fa1ac06e3d.jpg
-Dog,Copper,75,Mixed Breed (Large),,47,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/8d8b650748f120ba9d97fce067d4429c/72258dfdb6dc65958332bd720bf13cfb.jpg
-Dog,Little Bit,27,Mixed Breed (Small),,10.2,3,2,2,2,3,3,https://new-s3.shelterluv.com/profile-pictures/11ab3f2c76d4947be4d59a9c75267fc4/89f82e5bc5d167b3bc8ef30df8a779ce.jpeg
-Cat,Tig,6,Domestic Shorthair,,4.6,3,3,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/902bd8a727ee3058346d789f5ef9585a/3b22edd64a4ee82053691920f6529e53.jpeg
-Cat,Lingshi,6,Domestic Shorthair,,5.9,3,3,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/ef34159a64629d814ecb8f159432f277/bae4344d42903718cd755499b8c357b2.jpg
-Dog,Smoochie Pooch,63,Mixed Breed (Medium),,51.2,3,2,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3b90f4e3c6f695259bff857d69f5f48f/6c227d04af3ad412b93d09cf07df0ba0.jpg
-Dog,Rudie Joe,63,Mixed Breed (Medium),,56.4,3,3,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/35d34ac577396e397e9a01b3f3abfaf8/463cd76105442d9133fa36cd228df4f8.jpg
-Dog,Dreamer,12,Mixed Breed (Medium),,52.8,4,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/09785d6b686c6a8e86f9e65deb420955/694f2b384e0bc9150a9ef81da033ed52.jpg
-Cat,Alfred Pennyworth,4,Domestic Shorthair,,5.2,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/92148166a656ba744c5e078f8fa7d5f5/12175305c1fcb7b0660ec48f2f7776f8.jpg
-Cat,Helo,39,Domestic Shorthair,,11.14,1,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e1aa2db7d6de7ecaf89f8463ae9cffc1/a2250ae6d2ab4d3a867568641d9360ad.jpg
-Cat,Domino,4,Domestic Shorthair,,2.95,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/ee36994c9aaa590943f2a1156bffe09a/413ec35586cd7972fb4850d738e84f00.jpg
-Cat,Mei Mei,4,Domestic Shorthair,,4.62,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d87a6a9df9a1f2328769ee7e4178cdea/e146e737073c17f0b6056204078303d0.jpg
-Cat,Denis,3,Domestic Shorthair,,3.98,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/5a1155b6321460dac93ab8bbe5d580eb/5a21f5185356693c24ae877b4ce542e5.jpg
-Cat,Simba,53,Domestic Shorthair,,11.13,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cb9a058b9ffd208bd4e759c87b5fa48f/d85bdff8c4bb18f8edccccb206f64e0e.jpg
-Cat,Lydia,3,Domestic Shorthair,,0.97,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/32c8b06beb873ed064c25873dc764ccb/a6ffe3c0168a2474e77ce1ecbdaf0f45.jpg
-Dog,Danzig,15,Mixed Breed (Medium),Medium (25-59),58,4,4,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cff219eb541440488edeb4249e60302f/131351d92e1ef78124dc17207f7112e3.jpg
-Cat,Mina,4,Domestic Shorthair,,3.76,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/c9c871ebc00f43a7f2d6c460875c3e2b/2c0f70ce7f39ead840b44e96e718bfb4.jpeg
-Cat,Lucy,4,Domestic Shorthair,,2.68,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/bf19128d6cb9d0a7177e5f841575a00b/2178a2a48bb6c8907c9ef371120f76fd.jpeg
-Cat,Hange,3,Domestic Shorthair,,2.9,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/f2e1b4b9880d9201888ae7fd28cda231/c196b8b16228253be9a3a2a6ffeb24b9.jpeg
-Cat,Moody,4,Domestic Shorthair,,3.72,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e53f74fc2fc1f093ccc1a719fa010472/96a57694050b24724719e97b39d3b622.jpeg
-Dog,Queenie,46,Mixed Breed (Medium),Medium (25-59),66,4,1,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d4d8f596e2de4ada65bf0adb17d72f12/8a851f6312df3011d15281725bcdc11e.jpg
-Cat,Peanut Butter,3,Domestic Shorthair,,3.22,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/7cd1f0dd824e4875918743182c27155b/c5bb22c75d7d27db1534fddfe67f9777.jpg
-Cat,Quotes,3,Domestic Shorthair,,4.22,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/bf249bdf3af42305ad6076602f7a125d/faa33eb8f69d04c7ca77e6e8b1cf83cc.jpg
-Cat,Maureen,3,Domestic Shorthair,,3.49,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/22580d0ad53085b0d84213e4df7c5816/fcd07c4ca51f3442724767985ae3bac5.jpg
-Cat,Thing 1,3,Domestic Shorthair,,4,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4a2175fc5fc0252be1d97ee5ba9e6b27/497e959225110849d0aacdb5448c8442.jpg
-Cat,Wyatt,6,Domestic Shorthair,,6.2,1,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a9e9452e2b04b2b6bda805b347cf2754/59c1b7a6ea65bd6912d0cf1162ec01db.jpg
-Cat,Willow,6,Domestic Shorthair,,5.5,1,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/07853cf188b92255e9decb8d7bad44da/8d65e0a2ecd288f6a062fa7b9b3c1c78.jpg
-Dog,Dove,4,Mixed Breed (Medium),,23.8,4,3,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/633c00d64774209a9e4e5fab45a2e390/4d1614e47cb8e3d5adacc9a3b1e984b8.jpg
-Cat,Alloy,6,Domestic Shorthair,,3.47,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Bartok,6,Domestic Shorthair,,2.87,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Mr. Peabody,110,Domestic Shorthair,,10,4,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3481f73dae42944020cba8ab2d723adb/ade241827cbc3b3d263ed5d55dc17309.jpg
-Dog,Bluey,27,Mixed Breed (Large),,71,4,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e14338970e46274ce1310bbf07b8f3ca/023e72a368a17d50b438507b4674eefd.jpg
-Cat,Milo,50,Domestic Shorthair,,10.9,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/70a7d7ba64312179b41fffbbd4bc7970/fce996afae497b1dbda817f3a7206f50.jpg
-Cat,Axyl,67,Domestic Shorthair,,12.79,4,4,3,2,3,3,https://new-s3.shelterluv.com/profile-pictures/e3c3545ffb257e9a37b510c6e7245fec/3178efca969f324366898f900c3ffcbe.jpg
-Cat,The Brain,2,Domestic Shorthair,,1.18,2,4,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/58393dad88e77ba07d2952fc7472ffc0/fddd43e56df574516c5b468061b4b30f.jpeg
-Cat,Pinky,3,Domestic Shorthair,,1.97,2,4,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/5ba11e7e4aa85e462eaa469c0db95897/0b7dc711b636da826b92719fc672e206.jpg
-Cat,Jolene,2,Domestic Shorthair,,2,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Hank,2,Domestic Shorthair,,2,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Seamus,5,Domestic Shorthair,,7.16,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9019c6a705a43be78fab35454524bbbd/5258670fa220c9bd86f77eb613b7c492.jpg
-Cat,Merlin,5,Domestic Medium Hair,,4.8,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/5e9817cd643a48472f7cdde541b23556/c58e24293bc0d0879d7fff66fba6c97c.jpg
-Dog,Roxy,99,Mixed Breed (Medium),Medium (25-59),37.2,4,3,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d0bf2b71d9723b369e3751549ba0d469/de770cfa44507501d63a357dd7212e88.jpeg
-Cat,Hillary Kitt,198,Domestic Shorthair/American Shorthair,,6.77,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d201c9e9c970871e2859f18a32716f02/b24d2353acf5aff91d5a01a531323811.JPG
-Dog,Hops,2,Mixed Breed (Medium),,6.54,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e4e8d55b7dec6410b7b7270daa12e8ef/7574ff7858bcc1594a8114bae4172a50.jpeg
-Dog,Briar,2,Mixed Breed (Medium),,16.9756,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/042c4eff5ed22dd1567acecea27af37e/757ba184f34829a7f0c1e2519404175f.jpeg
-Cat,Jello,4,Domestic Shorthair,,4,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/da9423fc027b0251623efcefabe97218/988a4d027948407010a69a60bed6a1a6.jpg
-Cat,Mellow,4,Domestic Shorthair,,4.32,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3799a21f61d63e08b9ee8502a6ce2d92/af5bb955a580e5ec78761dabcfd4fbf6.jpg
-Dog,Gala,3,Mixed Breed (Medium),,14,4,4,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/84b40f849842286598a802709777fa1f/a2a12c5d1ecd0a20c4b6d16aee801ea2.jpg
-Cat,Sweet Potato,2,Domestic Shorthair,,3.43,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/124b678f699e8ee2b291c07a6722f576/20f8ba16039e2674866a358971bcdd77.jpg
-Dog,Charlie,97,Mixed Breed (Small),,21.6,3,4,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/fe2943c2a135c611f52e1a19b947b3d4/23aca82e7cd6371ebc96d3f44cdf0e49.jpg
-Cat,Mushu,25,Domestic Shorthair,,16.4,2,1,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9c9da385f593a6f5ba32ef70eeba860a/82bd6551995885df01e8bfb0a5e36ea1.jpg
-Cat,Big Foot,2,Domestic Shorthair,,0.4674,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3eefde514599a5bf0b5020bc007b0ef8/eb551cf37f2904efd54a1dc79c4fc5c2.jpg
-Dog,Abigail,3,Mixed Breed (Medium),,14.6,4,3,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/18a06718348e3631f4c6c5f7ff6e54dc/23be57fa6515398d66e2d64b06a1632e.jpeg
-Dog,Sullivan,3,Mixed Breed (Medium),,14.8,3,4,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/96cde403e82ba5bcc5a1a01383fd15ef/60e30b9d43cdff4799d1b80e02fbc0ec.jpg
-Cat,Sweet Pea,5,Domestic Medium Hair,,4,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6ecbf7fea895b685456432fe4686123f/c59cacae2751dd4f3dcfe593d7aec5ab.jpg
-Dog,Leela,3,Mixed Breed (Medium),,17.4,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_dog.png
-Cat,Julia,2,Domestic Shorthair,,1.5,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e2da586a570815d6d07fbb3bac9f3a9b/1d0f78ae9cfc6e9f44a574fba0422b93.jpg
-Cat,Elm,1,Domestic Shorthair,,0.9259,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Baldwin,1,Domestic Shorthair,,1.45,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a7156e3d76afc9521b3c03fca252cd76/5d571b1fccf4dc883c323376f164a818.jpg
-Cat,Maggie,1,Domestic Shorthair,,1.06,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/312ed4e6cce3083e616aace004afa45b/92fabce562cea452f10bb826e8efe79b.jpg
-Cat,Toeby,1,Domestic Shorthair,,0.76,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/be1493b7cf47f5d742065d551f665384/260b32e400f7269f28ac0e584e49cff9.jpg
-Cat,Wheezy,14,Domestic Shorthair,,9.02,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cedac45aa78f68e550540b1ae694a63a/e11954255cc27f860576d9a5e8c50198.JPG
-Cat,Cloud,2,Domestic Shorthair,,1.39,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/36e4bcb5a9e92ad3ffd57a4a5d26b47b/0c8f55c5a884a4e4cf25798081b32a2a.jpg
-Dog,Juni,7,Mixed Breed (Medium),,37.8,5,4,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/7365217ed2168712943388e6e5111e3a/291c9d1aca0e1118c79b9370e04bd468.jpg
-Dog,Juno,7,Mixed Breed (Medium),,38.6,5,4,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b865dd553d6420fa931ab9f7d466f8b0/a7298f3b4a92c35752aca277dfd438be.jpg
-Cat,Rose Bud,100,Domestic Shorthair,,10.04,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3208f16c16bd72b63d71999bd97f9cc1/20c5375d998b1efa725db8b19ee17b83.jpeg
-Cat,Buttercup,88,Domestic Shorthair,,10.36,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/df2a065f562aa01bf3ad83ab1bd1aaeb/196fcac1d13de6742ddc489aca79c9e3.jpg
-Cat,Radar Love,121,Domestic Shorthair,,14.56,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/fff2891a6eab0f85fae970fa1462eedc/afe7443609c2bd8d7fa0fd95f141bf3b.jpg
-Cat,Ruth,4,Domestic Shorthair,,3.29,1,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/bd8fff63b315927862fef5e703505186/c70fdd4ab393eb23ca1300cacded1b26.jpg
-Cat,Mabel,4,Domestic Shorthair,,4.11,1,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/ccac73a5c9ccc024cfc72e38367fe91b/a8c7d12e5073e386582b195827e77c10.jpg
-Cat,Ralph,4,Domestic Shorthair,,4.41,1,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d2eb5ce24b4cb617faaec6b1be64928a/35437941f18d3fbf80ad5214f712dec2.jpg
-Dog,Oliver,72,Mixed Breed (Small),,11,4,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/70557875fe2b4c92153846df82cd32be/788a072bc4b771a02d9cb2c6669be7d3.jpg
-Cat,Eva,48,Domestic Shorthair,,14.4,2,3,2,2,3,3,https://new-s3.shelterluv.com/profile-pictures/0e778101c4405aed74e6ade71a59fa0d/0fddcec1de957f0c601b58812071b0e5.jpeg
-Cat,Ada,15,Domestic Shorthair,,8.6,2,5,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0b441f5c476ee97573d8dcd932204bab/548959d664b611613eab7cb14b3168fd.jpg
-Dog,Stormi,4,Mixed Breed (Medium),,23.6,3,2,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/60d737425878d11223adbb7cce1bd8be/e271c7d22d002323866413eab3421388.jpeg
-Cat,Artie,28,Domestic Shorthair,,12.6,2,5,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b13d0bb5d22f8b928b497ca169641279/5ad214635fb8c6191a7ac9db137e3a2d.JPG
-Cat,Sampson,114,,,8.25,2,4,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/36db24c66dc2e87332b748362eb115e4/b267961f637fdf511c3464cd7f4e7e3c.jpg
-Cat,Silver,12,Domestic Shorthair,,10.7,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/2ca5831cfe4bdbe2a6328d0737187dda/8ea5e1f990ab7316bf19f04b0c95476b.jpeg
-Dog,Penny,18,Mixed Breed (Medium),,46.6,5,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e411bd7e2a3916c503120c3c8b05a714/75e28ab39c8fd549e6108fea32c3a996.JPG
-Cat,Autumn,3,Domestic Shorthair,,3.7,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/55d9f43ddd64db9a66338e717c6fa676/bca7671ae6c608a13d1d10d08abb35c7.jpg
-Dog,Charles Barkley,52,Mixed Breed (Large),Large (60-99),70.6,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/7f65c336d38fa427ef2ef7cab476955b/738f02e81b233a5c653aa11752d7a4c2.jpg
-Cat,Bella,115,Domestic Shorthair,,9.8,3,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6809f8495200fec5026f5628be7c3987/20240206130134.png
-Cat,George,212,Domestic Shorthair,,8.2,2,1,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6ca28464bca90f352f2953d2258b03b8/20230913145941.png
-Cat,Orion,28,Domestic Shorthair,,10,2,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/92eb90ac592e7f32218f9b00634c4aac/20230913150650.png
-Dog,William,81,Mixed Breed (Large),Extra-Large (100+),136.6,2,2,1,2,3,3,https://new-s3.shelterluv.com/profile-pictures/44a8690284883829dfe5040c3c833f6d/20240321080726.png
-Dog,Bunji,44,Mixed Breed (Medium),Medium (20-59),69,1,1,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/803b61dce7d2ead8deb5f4b59ca5c3dc/20240321085217.png
-Cat,Angie,13,Domestic Shorthair,,3.7699,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/1ad072c53ed425b76c912f2df10785d4/20241027085227.png
-Cat,Tuulikki,13,Domestic Shorthair,,6.63,2,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/24f364e48d6fa38e78438f7718b4fded/e99db07f9e89ad99ea8ba92ceec61990.jpg
-Cat,Bubbles,14,Domestic Shorthair,,8,2,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/dbbf6f6893e90aa557e4fa676c5a7a2d/199e1089eceb697f5ed3917f7f03b192.jpg
-Cat,Lana,90,Domestic Shorthair,,,1,1,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d7543cc8c03172f0b9b45229febf340e/23bd7247634794971149a6d5adccd9fa.jpg
-Cat,Spinach,42,Domestic Medium Hair,,10.91,4,1,1,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cc89ab1ff05c01941d0a46fdc63a0365/366ab9f42b3e4164663bb9af56076ace.JPEG
-Dog,Betty White fka Daisy,71,Mixed Breed (Medium),Medium (20-59),48.6,1,1,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e97f86486d77f3bd77bf13aaba2b971e/8d39d5e4d5a9320a75068089cb90facb.jpg
-Dog,Declyn,27,Mixed Breed (Medium),,70,4,2,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/156649665fa2db56273bda9ae2067cf4/350d594cfb5336c02075be74945f94f5.jpg
-Dog,Lil Blizzy,38,Mixed Breed (Medium),Medium (25-59),59.6,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a036ecd28d21e875378f785f050065d8/8fe1f153cffb4fd0e96901cf5fc74125.png
-Cat,Argentina,17,Domestic Medium Hair,,10.7,2,5,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/46e96f61c32f42486dd0119154f6f22b/ed4293af040f55b7936090d23b4b18f2.jpg
-Cat,Jenny Fromdabloc,13,Domestic Shorthair,,6.02,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/47e02dee8f7951b2b8a56d5a07d45fdf/9ce48865e6591e2bc6e9fc50fbad9a73.jpg
-Dog,Dapper Dan,10,Mixed Breed (Large),,48.6,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6edff2daddef3404888591ab16da894d/af6001c92a9e1924ab1e9026eff58941.jpg
-Cat,Talking Phaze,8,Domestic Shorthair,,7.05,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/63d9f12b177a9b5466bec601b261f764/94e31f3e57e5fd3b521a7b6013ec7896.jpg
-Cat,Marshmallow,7,Domestic Shorthair,,5.02,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/83d8f43a142d5bc134f6fd25b9e304ed/1270d87a48043e0ef9a39000916b237b.jpg
-Cat,Chew Chew,168,Domestic Shorthair,,13.95,1,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/875f52a2e3503461da13d6d6ff6bbb32/48e7e973e4697b5a2ae8b22ec2101568.jpg
-Cat,Ruby Soho,17,Domestic Shorthair,,,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/22b410aca5673b438bbaceb5a1afe698/223f8d6ac9d5442ae854652b63cf42c5.jpg
-Cat,Thunder Rosa,17,Domestic Shorthair,,9.3,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/ce867b7e2cbc79296da5221f65a003b8/3fef2f1ac4b50f104ced3660f7f8d232.jpg
-Cat,Francine Smith,12,Domestic Shorthair,,6.52,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/5075f22004af6928b486defd68262102/1f6000d0c77386fe1aab783c12f50772.jpeg
-Dog,Squeezee McCheezee,18,Mixed Breed (Medium),Medium (25-59),33,4,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/54c1196fd42fa27749638a7620d40925/1da9d349cba80647d23eb4bc44ed6cff.jpeg
-Cat,Francesca,21,Domestic Shorthair,,6.54,2,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a52eebc79b65b9d99bfb4e6f952450c7/9019a37d9772148747b26e5d292335f6.jpg
-Cat,Kroger,6,Domestic Shorthair,,4.3,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/af34f48916f408abe19931f0cefe164d/af7bde3bf37ae3baa9229932f4fe57f2.jpg
-Dog,Tonka,18,Mixed Breed (Large),Medium (25-59),52.8,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a1ae609d812895e5dfe75fa7e7434ab1/7459bcca8821dcb5b21c69ac90ad8344.jpg
-Cat,Poptart,10,Domestic Shorthair,,6.3,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/f59c83436d489f4b7200140a3549a76a/6f212eb06a9ed6649ea212bc055ee863.jpg
-Cat,Wonton,66,Domestic Shorthair,,9,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b6184065fad294f0c768fcbd6b433575/da2ba969dc30dc7efc628524fdc6df71.jpg
-Cat,Stormy Sunset,83,Domestic Shorthair,,16.26,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/c05c28d4930281176fc709237671db3a/0496f052b77302518898d827b84a2ae4.jpg
-Cat,Snow Cone,15,Domestic Shorthair,,7.7,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/ed1b2cb39420f03cecbaa5dc891abb0f/e3d3eae2565a10e54e83549c7d729f10.jpg
-Cat,Stitch,4,Domestic Shorthair,,3.24,2,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/fd9af7c3e3b66fa6c0c0c0a7692b9303/35d16aca1a07c17f58f7de1fd11ef178.jpg
-Cat,Tiptoe,6,Domestic Shorthair,,3.56,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Eeyore,6,Domestic Shorthair,,3.78,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Jalapeño ,6,Domestic Shorthair,,3.89,1,3,3,2,3,3,https://new-s3.shelterluv.com/profile-pictures/5b6707bc5f088b85f3d8d665894e7942/72e4ea4426da9d337e47df0685181aeb.jpg
-Cat,Ralphie Girl,50,Domestic Shorthair,,9.4,3,3,2,2,3,3,https://new-s3.shelterluv.com/profile-pictures/88ccfc517770c79e57a37b54f70642d1/42ad488252df6cba5f57ec7b6071a7b3.jpg
-Dog,Nola,13,Mixed Breed (Large),,51.8,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/c07cb9ef6461437eb2cd19d1af739dfc/838527e5bcf4671110fab653cc34a3a3.jpg
-Cat,Lilo,4,Domestic Shorthair,,4.91,3,5,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/79cb3df6198fd4eba5f173dc959be497/b6fc49c28c2c8c8f3b33656335dbd718.jpg
-Cat,Nani,4,Domestic Shorthair,,5.25,3,5,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/72c2ea6b787228a148e637ca48138f6d/88afc503ab5ff64596e8268035a50814.jpg
-Cat,Peppa,38,Domestic Shorthair,,8.27,2,5,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e49d43ca04556d41d60a3a7fd63415bd/25b0a42c069236ab60568724d38fe89b.jpg
-Cat,Firefly,4,Domestic Medium Hair,,5.44,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/53b9f0a9960de8e32748141700722148/e43cd5cf2c7e0a01e07b2a37c7f323c7.jpg
-Cat,Junebug,4,Domestic Shorthair,,4.5,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/80b966920bb1911c27ff870d3c1ecae2/cccbb067b06d3e6aeb0609c9de20f49f.jpg
-Cat,Spork,4,Domestic Shorthair,,4.5195,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/1e349b860a008c0aec1687f176a0be52/275cef3060e1cdd03ac6f177bfba1448.jpg
-Dog,Lettie,26,Mixed Breed (Medium),Medium (25-59),36.4,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e95c4c30d710435f13ea0f040a63192a/3b7f4ce94e20f44dc9b9eb821ec2407f.jpg
-Dog,Star Jasmine,2,Mixed Breed (Medium),,17.196,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/35dc57c2dcfcc78c1c957d7ac088657d/c578d353602a89690d2609efebe10472.jpeg
-Dog,Bougainvillea,2,Mixed Breed (Medium),,17.4165,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4be938e992323dac3ba312dc854a87b1/d16d4a1dad7c7fb49139c3c1d30037fe.jpeg
-Dog,Trumpet,2,Mixed Breed (Medium),,17.637,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0e51583569ff136a74303867869a60d3/f52f476a40d47e656606ee672e6c7666.jpeg
-Cat,Daisy,5,Domestic Shorthair,,4.5856,2,5,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/2911557e7cd8ce08abcc1b02cb76933d/7bca3c01014a6133202461479fa027bb.jpeg
-Cat,Maisey,5,Domestic Shorthair,,4.8061,2,5,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/51f6792c83f23fc1d5627085ccf92845/0dfc2e2610520fcd392dd37ff7061dd6.jpg
-Cat,Mona,14,Domestic Shorthair,,6.76,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d7af7fc38eacd1eb4757626fd586238d/d7e60db1741098e44c2f15616c765bd5.jpg
-Cat,Julia Child,13,Domestic Shorthair,,6.94,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e8f2a762f6bed074fb10f540f7170bb6/a5a2d5dd1c3f6e8fa9fc6f5c843dd60e.jpg
-Cat,Anthony Bourdain,3,Domestic Shorthair,,2.55,2,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/2f6afc9f9c9a8a2e7c418e5f940d4d0e/761b142feab3a55533420665e5c6f266.JPG
-Cat,Cat Cora,3,Domestic Shorthair,,1.52,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/c3fcafd1a39884fb85ae760a3b8cf12d/637e6091b6691b8af441b6d24bce153d.JPG
-Cat,Paula Deen,3,Domestic Shorthair,,2.02,2,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cb12b3940824115d949d152b3713496f/6726d644523cf581cd271a8a41fc96af.JPG
-Cat,Alton Brown,25,Domestic Shorthair,,7.55,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3f6ab75c327ad20f7b8cd9e3d86ab9fc/f99701e3d10027bab55a929ad64321ff.JPG
-Cat,Gordon Ramsey,13,Domestic Medium Hair,,6.46,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/f40ea35685f71b63ccad7d9bcd05370f/d918fb6f0c484a306d8e2026952d1fb4.JPG
-Cat,Serena,5,Domestic Shorthair/Domestic Shorthair,,3.7,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/446b3ed02168d7edc26059de7951f301/9da7a0a297946e076bb7af4190c68602.jpg
-Cat,Carina,5,Domestic Shorthair,,3.5,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/2dd509f202650224c18cda82bdffbaeb/2f8eb4e9ebd603f4de11f0ce9fdc7943.jpg
-Dog,Echo,15,Mixed Breed (Medium),Medium (25-59),50.6,4,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/45af84c7f7a40cda620a87f42af4c1d7/09fa8e2ffe1bc6c0d920f75a678a5734.jpg
-Cat,Scotty,121,Domestic Shorthair,,11,2,3,2,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Sneaky,85,Domestic Shorthair,,6.33,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9c2cf7bc63ed97bffa5f81db769217c8/41926611af2f5ba91be0b1e49c63e460.jpeg
-Cat,Eugene,21,Domestic Shorthair,,8.85,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e9f974bb2910b4bc8420d494cd5b3f10/4232e79a9c516668a9aabe509068a6db.jpg
-Cat,Bobo,2,Domestic Shorthair,,1.87,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e6e2c950d98929f8d8f152d51067d0ad/1fa97381115b742ca6ec0fadddc7fba4.jpg
-Cat,Moxie,126,Domestic Shorthair,,12.85,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a89fc7284fdddaeb8d3dde944766ee9b/4674c50e174e553b250b37482adba9c3.jpg
-Cat,Prince,108,Domestic Longhair,,9.5,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Sebastian,108,Domestic Longhair,,9.18,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Johnny,5,,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Jeremy,5,,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Squishmallow,0,,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Pomni,8,Domestic Shorthair,,4.5,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a084bcd5dd6bbb80914fc174ecbec655/2c6a05bfbc3bf24c43ac188ca26c5864.jpg
-Cat,Louisa May Alcatt,2,Domestic Shorthair,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Edgar Allen Paw,2,Domestic Shorthair,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Pawscar Wilde,2,Domestic Shorthair,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Jane Pawsten,2,Domestic Shorthair,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Silly Straw,5,Domestic Shorthair,,4.71,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9ac24100e9e14251c6e2055f05742270/afa176a129f6f4943551894e69d9dca2.jpeg
-Cat,Yard Stick,3,Domestic Shorthair,,3.22,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/be3aab300f6219c31afcd0d5b269bd05/55004c5666c2b654a05e7e3e294f2509.jpg
-Dog,Mikey,54,Mixed Breed (Medium),Medium (25-59),56,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/241a5c8cd4d875a2d3a6bebac2116ca9/4bba6aeb9a056513b5f33a74903b6f3a.jpg
-Cat,Harmony,0,,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Lyric,0,,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Tempo,0,,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Monkey D. Luffy,0,,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Lord Picklejuice,1,Domestic Shorthair,,1.23,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-"Rat, Unspecified",Tumbleweed,27,,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/78198c7a44e1855218c73129bb3e5afc/20240703102641.png
-"Rat, Unspecified",Coyote,27,,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6939b45c2eaa74b5d868719c5990c68a/20240703102509.png
-"Rat, Unspecified",Khloe,7,,,0.9524,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/f68b26a0e21b9343b0991f483b3dc4ee/19cb2fe66a7e8dda067defd1c9f491e0.jpeg
-Dog,Lucy,149,Mixed Breed (Medium),,28.4,3,1,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d08a9f9202a55d5d0116fec8fd41a80d/20191121113253.png
-Cat,Billy Idol,4,Domestic Shorthair,,1.97,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3ba596b72c266137688bd91ac0b5bf6b/7c2474ccdc974d6ade062f65aacbe991.jpg
-Cat,Apollo,46,Domestic Shorthair,,7,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cacc5bf532e322ac389150a2c404eca6/a7d34d4bd09e72e31d09dfbb8886076e.jpeg
-Dog,Gunther,38,Mixed Breed (Medium),,54.6,3,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/09a1eb59a15c63b16e594d6e00d729e3/5b1568a790bdd0342c4ce9e53e76cb00.jpg
-Cat,Xena,38,Domestic Shorthair,,7.36,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/7c04bc0ecbfcb14c53741321bfc089cf/b5f011c5c66ad4e4dd5b673df7513f0c.jpg
-Dog,Flora,13,Mixed Breed (Medium),,28.8,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/8bd5327b83422d89fb29298dc9bb295c/917327d9ca6c46521695afa6c00d4372.jpg
-Cat,Maxine,1,Domestic Shorthair,,1.01,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/83f8de9f189a2e59a09ea1e398d91152/599a33e8737db8fcfb3ea73d0b2f5e33.jpg
-Cat,Dizzy Lizzy,1,Domestic Shorthair,,,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/67256afad4e6dcbd5ef4cdea824d41a7/443ae89f2e7fbffa40447e0ac751b724.jpg
-Cat,Pizza,0,Domestic Shorthair,,0.2425,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d74bfab9a420e599d3dd5e0232c5af4d/2496b19ec41a5cd9a397178a13d69f33.jpeg
-Dog,Bell Bottom,11,Mixed Breed (Medium),Small (1-19),13.6,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/803adfa9d0ecfe14cd7071d88c219adf/20241107124010.png
-Cat,Vincent Valentine,17,Domestic Shorthair,,4.41,4,5,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/afc216e4fb85b80dab2e43762fe738a8/20240508080535.png
-Cat,Daisy,16,Domestic Shorthair,,3.02,4,5,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4bae7c321e404434923968ff3216b8cb/20240630073459.png
-Cat,Lint,15,Domestic Shorthair,,2.4251,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/2ca6935e0f5024996d788cbc85bc9e32/20240627163809_0.png
-Cat,Smitty,5,Domestic Shorthair,,4.35,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/374ea8a51682520674b5947f43eefbe9/e9ba5f59504957df4fd102067f24aee1.JPG
-Cat,Hannah Meowtana,5,Domestic Shorthair,,2.0944,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/09c746dd3d53ecae16298be437bbbb34/72c702465a1ba085847610f66532cd1a.jpg
-Cat,Jenna Meowdougall,5,Domestic Shorthair,,1.9842,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/949e3d60b8d2530bd73728c8893f8760/a3de65faa9a0dfb2e97b64251e9b97ed.jpg
-Cat,Chester,5,Domestic Shorthair,,2.61,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4c0ea0024946d095e741b61ab3e231cf/92d73ad703a546caacd4edc60950e461.jpg
-Cat,Hamtaro,4,Domestic Shorthair,,1.5873,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d496cbaaaa5e1d0e1f99e67745739a62/676a07f75dbb58099f97947d296faf7e.jpg
-Cat,Winky,6,Domestic Shorthair,,3.15,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/333e0a8918c04e2ddb238f74f187a167/d94bfb2ca13f4d5a0f9c29197e967892.jpg
-Cat,Slinky,6,Domestic Shorthair,,3,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/70c314f8f8a6928eca0902d154878983/c8ab1c8783b7878656c045780599aa0f.jpg
-Cat,Chavela,5,Domestic Shorthair,,3.49,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/975f6af74aa9a1fa4009219e42f56d93/29ec564acadc0eb405b717ff647d19d2.jpg
-Cat,Frida,5,Domestic Shorthair,,3.54,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a11f52c8a16aeb509f77d0b6af07a23b/2810c80cf15c117eff23228955095a39.jpg
-Cat,Peekaboo,5,Domestic Shorthair,,1.3,2,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4919344a859db1f24ffcb143c98bc8de/5681afa2419f3885dadaa3ad438a098c.png
-Cat,Jon Bon Jovi,4,Domestic Shorthair,,1.8916,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/83033a14a9edd586e66080c8a454ad4e/4046ed0dfa64067a6ced1a05024ff1bb.jpg
-Cat,Annie Lennox,4,Domestic Shorthair,,1.5168,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4f7ec4dddb405feef3cc77885bc583ac/747768f6088c64b288e126ccddfc6cc6.jpg
-Cat,Honey Lemon,5,Domestic Shorthair,,2.6455,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/17f6a43a0a7be261650d874335a10765/aa87cc952231573cbbdc391043bb9108.jpg
-Cat,Gogo Tomago,5,Domestic Shorthair,,3.2187,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/944708d2862c2ff6b0f949c1ab8f2556/88e8d9d789d2f84e62f2dffc04442d63.jpg
-Cat,Rick Astley,4,Domestic Shorthair,,2.02,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/de083626aeec4cd8db27cf5ee359e69a/0044b536ec6234f141644a82a5bce485.jpg
-Cat,Alan,4,Domestic Medium Hair,,1.5,5,5,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/994b37ccfea987ca79a9969f4f71e79f/5c0bbcc27cd00fdae959cd48d28cfdba.jpeg
-Cat,Oliver,4,Domestic Shorthair,,1.58,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/65baebb2e41718aa72abacf4ddf061cc/3138ebd2b5562fbf78ba52332e377a61.jpg
-Cat,Jodie Foster,5,Domestic Shorthair,,2.4251,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/f6b3ca5482691613ef7eacc2cf9683ff/9fd604ddb614b908de9ab5a1ac20f002.jpg
-Cat,Harvey Milk,5,Domestic Shorthair,,3.1747,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9324dfaaa296de2bb73fc0e0de12e252/24a62e84db35f5586e9ca98c3176b9cf.jpg
-Cat,George Michael,5,Domestic Shorthair,,3.8,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/34fe3710c4049caaaa363e1ef8f51b12/92b67cc1598021cbcecbec2d3fb914d4.jpg
-Cat,Elton John,5,Domestic Shorthair,,3.6,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/7dd1202900c7cc75b730984b672a4ef5/db4ee5406972a68aea947fa0241f5f8d.jpg
-Cat,Tweety,4,Domestic Shorthair,,4.85,2,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/055959ea083a5e57ac47f1e16071c446/27a702d019d70713a3eb5aa9d5698413.jpg
-Cat,Sylvie,4,Domestic Shorthair,,4.09,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/c5855e2f17851ee507cfc41cd6f35567/0b091a200aab6e9d94460e1cb014d6f7.jpg
-Cat,Sequoia,5,Domestic Shorthair,,3.32,4,5,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/79d6cbf537b78c82f154cf072d4ffbf3/81ba7be004e274023bf90cf2b14d6a9a.jpg
-Cat,Sasha,4,Domestic Medium Hair,,4.56,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b3eb410931e7335f42aa7d8200e9d158/e319ee58d2d3d46ca51ef5918a31a6b3.jpg
-Cat,Ribeye,3,Domestic Shorthair,,2.62,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/302fef4aa9d9616a38ae3e6fefa3fa17/af212d317f5d99280ab69b26c25aa8fb.jpg
-Cat,Blue,5,Domestic Medium Hair,,4.1,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/bb13138bb012216ad0bf0aad05fbfe02/76fdddcc46c2c57e665c44be4c9e2060.jpg
-Cat,Gunther,3,Domestic Shorthair,,3.12,2,4,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/ab2028e5da2cff9ac7132ca43375aeac/9c49d7837acd1e0e1c2f3d9f1722245d.jpeg
-Cat,Slurms MacKenzie,3,Domestic Shorthair,,2.8,2,3,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9a46c8b43acee355e1fb9b8d118764cf/6bdd7f0a34114f634465c6cdbd267d49.jpeg
-Cat,St. Claire,3,Domestic Shorthair,,2.65,3,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9f3ef53cb214b649d1d1ad17d46638b1/cd749c9c4309d39fa3d8047f6c8336da.jpg
-Cat,Quentin,4,Domestic Shorthair,,1.2655,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/aee2111bcce861481a219d6b477f8dd8/a2b00d3be75e0a2ef92bc03007a3577f.jpg
-Cat,Baloo,4,Domestic Shorthair,,3,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cf94486f0ace897ea8359f1ef742c9dc/a0940c33a76e84339f1498970aa9c205.jpg
-Cat,Stormy,4,Domestic Shorthair,,1.1023,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4db5997e62364ff69b72ef65d54cb9b6/3d6fd5040b34e219ff5aaeb799920a4a.jpg
-Cat,Charm,4,Domestic Shorthair,,2.36,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/1ecd357779a339a88c0656c67cc50ade/5bb16676ec0891f8ee2e53999b21ef65.jpg
-Cat,Reese's Pieces,3,Domestic Medium Hair,,2.54,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/96dc046105e41d253aad7ee28e5148c8/44612f74e5ffdd893254c320f3b85d5e.jpeg
-Cat,Ally,4,Domestic Shorthair,,1.64,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6b878c8db19b93e629536a0ab8797bce/46f82be35be2d5466dcf463fe03e0cec.jpg
-Cat,Tiger,3,Domestic Shorthair,,2.94,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/caada8139920faad3c8b9a48cf75ea33/a6f32c6b70101eb071c2526d4ea5e3ff.jpg
-Cat,Big Blue,3,Domestic Shorthair,,2.35,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/20671cc867d7c0af8f3a09c98c4f6168/59b8eea5b038e05c42793f018c0f389d.jpg
-Cat,Thing 2,3,Domestic Shorthair,,2.04,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/2ba218b9c974003c13a9c421e53a861a/4a0cb3830acfbb212d390c0e66d3f4d9.jpg
-Cat,Smokey,3,Domestic Shorthair,,2.16,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/41dbfbecf140318811f0742938bb5485/0716a56bc9e7d8e8455daccc0f0a23cb.jpg
-Cat,Xerxes,3,Domestic Shorthair,,1.26,3,5,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/48a244caffe57907cd1b0e83b8f2535e/6fc58fe628538e766c51adef97b69f93.jpg
-Cat,Handsome,4,Domestic Shorthair,,5.46,3,5,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0007f3176cc3717962a3aacf18af690a/909c352a93d33f748dabce1af9931e9c.jpg
-Cat,Precious,4,Domestic Shorthair,,4.69,3,5,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/8791caf16df8aaea23ec3d57a0c602ff/9203cb7324eaaef793152548233d0bf8.jpg
-Dog, Oriole,4,Mixed Breed (Medium),,,4,3,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/05276ca262df4bddc414ed9ba746cf3a/9bfd2835bc120728936c74f9562973de.jpg
-Dog,Chickadee,4,Mixed Breed (Medium),,25.7,4,3,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/1b07532bc15bfb365ad255183c05d599/1d6f5a6997c30c070598e68941f66077.jpg
-Dog,Blue Jay,4,Mixed Breed (Medium),,11.9,4,3,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a38d68c0a4e6adc3a100ac8253642f80/3762c3e2c7d3d13d3130c3e4168cac51.jpg
-Cat,Basil,2,Domestic Shorthair,,1.7,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
-Cat,Minnie,4,Domestic Shorthair,,4.1,2,4,4,2,3,3,https://new-s3.shelterluv.com/profile-pictures/98cf90a9fa57ff0e1a11c75481149144/ee80ccf5b5755a0a7eb50bc44767383d.jpg
-Cat,Vanna,5,Domestic Shorthair,,4.48,2,5,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/fa6f3886ed5c0ede2fc1034e10902015/12668f11715bb9e2cb5e4383ef15fb86.jpg
-Cat,Opal,5,Domestic Shorthair,,6.17,2,5,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/1f9c2a2beefdc88f776582a599e9ac21/94c20795f511eb42d444be03a6141d71.jpg
-Cat,Maynord,3,Domestic Shorthair,,3.26,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e3fe0e9e1438b87c6f21d05dca6b29a6/23d3cef456399fb780caa70b6f2c586f.jpg
-Dog,Miko,3,Mixed Breed (Medium),,14,5,4,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/805a580c59b5b2fa23fa9539e90d348f/4a245f3e588ec9a0338152d97f3eb624.jpg
-Cat,Fiona,3,Domestic Shorthair,,2.65,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/911e6057f54eaaeaaae214097ad3f59d/d49d6127cfd52d4586ce85cc2a850da0.jpg
-Dog,Jayva,17,Mixed Breed (Medium),,53,4,2,4,2,3,3,https://new-s3.shelterluv.com/profile-pictures/f165fdda18d6d847269b50aef551b2a2/15c25fba5684ebf8b8b467acb7af6263.JPG
-Dog,Snuffles,3,Mixed Breed (Medium),,10.8,4,2,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/868151ca7c4fe6e288ac5860bd234e6c/21ee958d3e0be99022ac23417c6b62f5.jpeg
-Dog,Fei Fei,3,Mixed Breed (Medium),,9.6,4,2,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/84ba2fb574e48dadfda1283af5eb9c05/3426ce184b004300d77109426fedb990.jpeg
-Cat,Chicken,3,Domestic Shorthair,,2.6,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9e3146c9e532853ae539649055d88210/bf1b0bd59745092c17d648272fea7c51.jpg
-Cat,Nugget,3,Domestic Shorthair,,2.75,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0e99996773d8f1f4f7f3955de6dd73b6/c5e1af00d2af9df9db77798a752aee31.jpg
-Cat,Wendy,3,Domestic Shorthair,,2.71,2,5,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/1e2e8c47a84d58ce4645cdb403386e7a/88785b96e2ed65860c52966e23268e34.jpeg
-Cat,Sammy,3,Domestic Shorthair,,2.41,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/fdf0b901e982e52b345dd4f77d4f2c33/5b2f86710f905520dd33b80cc79f7566.jpeg
-Cat,Miku,3,Domestic Shorthair,,2.25,2,5,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/be9aa8bac4e729747d288f75503fbdd7/e7047c2892842ec1696aaf57009421dd.jpg
-Cat,Poomz,60,Domestic Shorthair,,15.8,2,4,5,2,3,3,https://new-s3.shelterluv.com/profile-pictures/169d4145ebf1280a04830eb43e1ac401/9426d158ce1df920e1338ee009167c22.jpg
-Cat,Oracle Delphi,19,Domestic Shorthair,,8.2,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/f7c87090fc552aaad1af72b0ed760dd0/bdef9cef87d455719732685b6ec044ee.jpg
-Cat,Gus Gus,7,Domestic Medium Hair,,4,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6831ddcf64302265ed163d69be1e2e48/e279aaab7e0eb934fdc9e39d9a637d66.jpg
-Cat,Gazpacho,12,Domestic Shorthair,,10.2,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/db91a7a5378e6e81613e3fc6e0b205be/95e6f0b543aa7d587242e56062bd5003.jpg
-Cat,Tillie,5,Domestic Shorthair,,4.5415,2,5,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9eb2d577548a564c5b6acb56bd048ed1/84d76101dbb7320fb218d6d967ad675c.jpg
-Cat,Patchouli,3,Domestic Shorthair,,2.66,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a2da93bb847a0856450787b61bea9df9/535da71f3dfc6addb229ce90f746723c.jpg
-Cat,Guy Fieri,3,Domestic Shorthair,,2.13,2,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/c10caa3aa8c7923f2e5ccaf1d1066f6e/c2459561e730df16dbec7898e3ed512c.JPG
-Dog,T-Rex,103,Mixed Breed (Small),Small (1-19),10.2,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/64555fbae7bac6116d2a8d889a2a8fd1/20230131201445.png
-Cat,Bazinga,124,Domestic Shorthair,,7.8,2,3,5,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3f172bdfcac38454dec66d71b4811889/60564f309c6530cc3dd35341fe409230.jpg
-Dog,Angel,63,Mixed Breed (Medium),,44.7,3,2,2,2,3,3,https://new-s3.shelterluv.com/profile-pictures/600896751868326c1b0627fcadd857ef/0abab1d897326795988f6adf7a28f11d.jpg
-Cat,Blessed,162,Domestic Medium Hair,,11.22,2,1,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3a55e1fc10c81a4deffa34976980df81/d72b553ad23ff49691dcc5c76a3f31e5.jpeg
-Cat,Bean,4,Domestic Shorthair,,3.45,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/584bd2a8f1ea4094e0816a4de344d997/8bec8f02f9e13bebdce9317470de113a.png
-Cat,Snake Pliskitten,3,Domestic Shorthair,,3.8,2,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d592aa4b6250bb4a58f24b0e0f2a60f7/aa9becdd7309ded5a19a26b6653e5a6e.jpeg
-Cat,Hot Pocket,4,Domestic Shorthair,,2.67,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/ef449fde34294c834648e56e6512313d/83d2732b1cff9415deabeab4965f22c4.jpeg
-Cat,Rory,6,Domestic Shorthair,,5.7,1,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/1c7381f4e9710c3831feb16970cfcb02/6880a7a00523fd0dc2a401c12104cac6.jpg
-Cat,Thomas,6,Domestic Shorthair,,6.99,1,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/f072b93a4f2e403545ca807c4d928634/0de1f899c936127f4875cc05ce2b2060.jpg
-Dog,Finch,4,Mixed Breed (Medium),,34,4,3,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/abc3bea907f80b1736df5716d92b1e90/fedcf0797c2f4eee4fc98defb5397b5b.jpg
-Dog,Bingo,27,Mixed Breed (Medium),,53.1,3,2,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/2b1d0dbaf5979c483c1f89ca835c67b4/bcb110576edac148eebe1ce5db6eb088.jpg
-Dog,Gilbert,3,Mixed Breed (Medium),,2.53,3,4,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/911f85ac9784f03997662f979c1c0a03/9a2e6f927e8e3a7ede32ff75aa8c7c66.jpg
-Dog,Stella,2,Mixed Breed (Small),,5.3,5,1,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/ec6f7a564cc184414bf32c4d4ce9e91f/6f567ce33372fa6429bd33e466208738.jpg
-Cat,Yuffie,2,Domestic Shorthair,,1.165,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/8b7fec22e3651ec659421f2fccb36215/2b48d741b437c19530d464628b46cef5.jpg
-Cat,Tifa,2,Domestic Shorthair,,1.18,2,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/62cc13071154011791ec9e128628fd41/7176a700fbd206f27fc5bac2f3d6c3c3.jpg
-Cat,Sticky Note,2,Domestic Shorthair,,1.55,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/234d5589fd185dd9eb1c2e5727818607/8ba679d8102a656057a6815102dfd0bf.jpg
-Dog,Moo Cow,25,Mixed Breed (Medium),,47.6,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9380191e379124fbc0f335e007925916/a2a2c491b045c5c1f3eb2a6af48434e4.jpg
-Dog,Scarlett,0,,,,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/7a19526cbf303dc4752632bb4d2b0f1b/a56c49ea57176dee77d0a36d746a839e.jpeg
-Dog,Tedward,33,Mixed Breed (Large),Large (60-99),64,3,2,4,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e994e942f5bf33e78432835fc54e42c9/20240711122554.png
-Dog,Shiki,33,Mixed Breed (Small),Small (0-24),17.2,2,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cbb7b02a97973f9cdb97a0cd75f73011/ad74df72c627b299619949bff4e88700.jpg
-Dog,Luffy,109,Mixed Breed (Medium),Medium (25-59),32.8,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b6a48006ff75d74d03f03033ec2eaade/d6f1fc612738aba9ad70d6e240ab158e.jpeg
+type,name,age,breed,size,weight,dogs,cats,kids,energy,affection,new_people,training,image_url
+Dog,Swiffer,24,Mixed Breed (Large),,46.2,4,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/a9d545a9a1b5be7c907f135e11badf17/14dfada9514cfa4a39bae377b5664a57.jpg
+Cat,Belle,108,Domestic Longhair,,5.5777,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/80af8eeda4b5e0b48d3331a30c26aef3/e6886483aaabef6fccafa84f9933fa26.jpg
+Cat,Maxie,199,Persian/Himalayan,,5.19,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Chloe,199,Domestic Longhair,,9.6,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Mao,199,Domestic Shorthair,,11.3,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/7121674acf3d0a8a622c889fca1c20a8/20190910104553.png
+Cat,Dean,136,Domestic Longhair,,12,2,1,1,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/72a8a2b8d9b80a05e1cb9fe9c4c1163a/20241208132958.png
+Cat,Simba,158,Domestic Shorthair,,,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4dc32b0d93a7892930fbd9e2d70e8e7e/20190911105610.png
+Cat,Reversi,140,Domestic Shorthair,,9,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/8becec302de90c1ab7409ade443aa133/20190910110649.png
+Dog,Milo fka Sam,139,Mixed Breed (Medium),Medium (20-59),59.7,1,1,1,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/d9dc74b308ba54030d05189722ded854/20190914111736.png
+Dog,Andi,165,Mixed Breed (Large),Large (60-99),53.8,3,1,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b41d223b544a346b0248209c07202303/20220923101545.png
+Cat,Arthur,222,Domestic Shorthair,,6.4,2,1,2,2,3,4,3,https://new-s3.shelterluv.com/profile-pictures/84ca3b30be0b452ec19251fc07ceaacb/20190910093246.png
+Dog,Nebula,75,Mixed Breed (Medium),Medium (20-59),67.8,5,2,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/cd53be4b01f94be92ccd33fcc59f3556/20240609085851.png
+Cat,Taylor Swift,146,Domestic Longhair,,12.4,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/94fab2460153bfe00253b9dacc3e56c4/20230821133927.png
+Cat,Cardamom,55,Domestic Shorthair,,11.7,2,3,2,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/435873092a158ab90b90702c58d7f3f4/20220618094348.png
+Dog,Lulu,117,Mixed Breed (Medium),Medium (20-59),56.6,1,1,1,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/246cd2a4b7fd8b625de5116768bfedd5/20240321083823.png
+Dog,Apollo,96,Mixed Breed (Large),Large (60-99),68.6,3,3,3,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/3fa7f2f8cca9e0d7dd1361af64eac5f8/20220706115226.png
+Cat,Pimms,78,Domestic Shorthair,,12.6,2,1,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/52cf2084b8b4dc290a30b98e14878c45/20240328092107.png
+Dog,Curie,21,Mixed Breed (Medium),Medium (20-59),65.2,4,4,5,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/568a76254f4c8b9f44dffb151fb7b5ca/20241004071145.png
+Dog,Julio,104,Mixed Breed (Medium),Large (60-99),71,3,1,1,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/328a740690b5610408b7122a92893c1b/20240321085359.png
+Dog,Birdie,90,Mixed Breed (Large),Large (60-99),82.4,1,3,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/044efc01107705615afe80486da1d563/4b36c323583039e636422db0c9d2c690.jpeg
+Cat,Rosie,68,Domestic Shorthair,,6.6,2,2,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/0d70b08131f4658867e1160b1e768a79/20240321082737.png
+Cat,Swiss,13,Domestic Shorthair,,7.25,3,5,5,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/92a094402292c9168465a512945e60bc/9217b7d7fca9fffa06734a2e86bb14ff.jpg
+Dog,Alexandra,81,Mixed Breed (Medium),Medium (20-59),33,3,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/44cafd961ee8fcf4cc7e4ed7314bd04f/20221209084753.png
+Dog,Noodle,63,Mixed Breed (Medium),Medium (20-59),59,3,2,2,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/6c465c963ae85e2c73d88ee015208c49/20230725123806.png
+Dog,Appa,87,Mixed Breed (Large),Medium (20-59),63,1,1,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/98fd39c5c7b872d0f95d994a243a392d/20230304114813.png
+Dog,Jack,77,Mixed Breed (Large),Medium (20-59),64,3,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/20f1d8e6e1655a5e47cc46098a8c510d/20221128055210.png
+Cat,Stardust,40,Domestic Shorthair,,10.63,3,2,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/4fa2589533c1e6d8176d7e446f2cf32c/a24c070fb1fce50a243862e5b1c531f0.jpg
+Dog,Kazoo,62,Mixed Breed (Medium),,74.2,2,2,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/7c77ed65a582106fdc0f3fbd82c916b2/f5c06c5fbf65a5d6d572fa323637db5c.jpeg
+Cat,Daisy,65,Domestic Shorthair,,8.67,2,4,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/3a2010e1ec871ceb9a056be273872bb3/20241206143427.png
+Cat,Twin,181,Domestic Longhair,,9.6,3,3,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/ffddb84562f68504b9468bac5c8c1465/20241208065035.png
+Dog,Calum,152,Mixed Breed (Large),Large (60-99),67,3,2,1,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b16fe0c45ffd1c5fd3f9f052568dd503/20240321081045.png
+Cat,Leah,111,Domestic Shorthair,,13.3,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cb285e3abb5bfd76fc2aaeb40f7687fb/20240321083100_0.png
+Cat,Inosuke,53,Domestic Shorthair,,10.88,1,3,5,2,3,5,3,https://new-s3.shelterluv.com/profile-pictures/c72e691ef467521f754339102478f91e/2356755cedea0d9d22b46ddadd7a3566.jpg
+Dog,Dunkin,63,Mixed Breed (Medium),Small (1-19),71,3,1,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/df16d1970b05d2c977ce4e4801cb7b53/20240205125718.png
+Dog,CJ,80,Mixed Breed (Large),Large (60-99),92,3,1,4,2,3,5,3,https://new-s3.shelterluv.com/profile-pictures/46bd5dc7a97d2263bd77276311a463fa/20240408132817.png
+Cat,Tesla,123,Domestic Shorthair,,5.76,2,3,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/6e642940a667a76ec894d985a12da1e1/20230725130119.png
+Dog,Teddy,109,Mixed Breed (Large),Large (60-99),62,3,2,1,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3cb4423931d455e9db75519a9d8e03d8/20240328092850.png
+Dog,Peaches,49,Mixed Breed (Large),Large (60-99),45,2,1,5,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/058e1f0215acd35f3e8e4dd16cb53571/20220808085233.png
+Cat,Marcy,73,Domestic Shorthair,,8.6,2,4,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e8296eb5ae27a8296ae2d9dedc19daa8/20240328094818.png
+Dog,Strawberry,77,Mixed Breed (Large),Large (60-99),56.6,1,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0f1d8d0163870351c1422a8bc83022de/20240508145033.png
+Cat,Hanna,150,Domestic Shorthair,,12.18,2,1,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0e6dac5d5f0f6b46cfda966cb1119584/20210610155848.png
+Cat,Sprinkles,57,Domestic Shorthair,,18.94,2,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/05e134860321eb8ad61907de1bcd858f/20240328090510.png
+Cat,Sookie,52,Domestic Shorthair,,9.18,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/c55e91d785625f343957b1befd19e342/20240516064117.png
+Cat,Maya,75,Domestic Shorthair,,8.16,2,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a2c2677ae06fb27060cdb3a0a6b4fe1b/20240328100929.png
+Dog,Brownie,30,Mixed Breed (Medium),Medium (20-59),46,4,2,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/74cfaccf73f0d570384f40902715c8ab/a3bd737113af12853cbd686d55a77a7f.jpg
+Cat,Yuki,149,Domestic Shorthair,,11.75,2,3,4,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/97824d60ae5031ba834737b38bcc8764/20230508064533.png
+Cat,Hey It's Franklin,105,Domestic Shorthair,,11.88,2,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b6fa2a071f5db5429e38c073ef0f5e28/7f6b1ba6adc4e5215267e2fe65b6a3dd.jpeg
+Dog,Banh Mi,18,Mixed Breed (Medium),,54.8,3,1,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/4055fc9bc5003d4865b527395767034b/129949c2395182f9f83b794cc9be520d.jpg
+Cat,Michita,14,Domestic Shorthair,,6.94,5,5,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/5f612406acdff9c772a953e870fd212a/730f854208571b6751d50f603e1b5ae4.jpeg
+Cat,Michuna,14,Domestic Shorthair/Domestic Shorthair,,8.67,5,5,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/211ce4cb0f1ee1f8aebb81fa8c7b0aa2/222d257dce27f459e43c8857dc3ace37.jpeg
+Cat,Calimero,24,Domestic Shorthair,,13.23,1,1,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/3089a31a56ff380476a48bfc5d6a4663/0cfe7316fc98bb61f03f15af4144c538.jpg
+Cat,Gru,188,Domestic Shorthair,,8.4,2,4,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/bce7f7b47842adc35654350b45e6d915/69fb2e2ccc0bd941b2a8bd7fb884a971.jpg
+Dog,Fancy Fred,10,Mixed Breed (Large),,43.2,3,2,4,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/80a20a40eb81a5d36049659fd1f169df/d47af568128a7c9be8f916c7eb4cff95.jpg
+Dog,Ryder,91,Mixed Breed (Medium),,61,4,1,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/4255ed59ccd88bb747c9d553b23d3417/66364f078830a1569bc8f15173ce67bd.jpg
+Cat,Princess Bean,15,Domestic Shorthair,,7.94,2,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/be44de4e6b95c69462745bc7e60c6710/82ea01175858aad6dcedbbe9aebe9a3f.jpeg
+Cat,Stevie Wonpurr,18,Domestic Shorthair,,12.5,2,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/b7b8c69dadfa351fe966943f279c2e26/c5eb66bef701155efc526566d1eb2900.jpg
+Cat,Stanley Michael,6,Domestic Shorthair,,6.51,2,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b462996bf1b60315f6d334f7c55b071c/97a4e090eef136079413f3f1647e122a.jpg
+Dog,Ozzy Pawsborne,41,Mixed Breed (Medium),Medium (25-59),52,4,3,4,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/87d819f866cda9c50e5f0260d6bbd724/11aa14db711405e9f0f991a5b043f296.jpg
+Cat,Georgia O'Keeffe,41,Domestic Shorthair,,7.69,2,1,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/0757e78f746daa97c953f203004641fb/07815b09e228a4e0b2b49b6c9ae17104.jpg
+Cat,Sir Georgie,6,Domestic Shorthair,,4.8,2,2,2,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/40660cad50c63de1dbd90c048d7a24c1/211454ebeb744ec9bbc26db357b8a45d.jpg
+Cat,Luna Fry,17,Domestic Shorthair,,6.46,2,2,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/e812e7b4ca158762b51cc48065f13f11/5b8800b3412f8ab7b1a3cd4e866079fa.jpg
+Cat,MooMoo,12,Domestic Shorthair,,7.53,2,1,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3f3fb4822fc6fbeaa96dfd764baf1c00/03a566fc16585181176bed30de367dcf.jpg
+Cat,Power,18,Domestic Shorthair,,8.67,3,4,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/7a9c0d465d45a80017280440328e1590/490e4929853a87d6a2e010f0f36ae2ad.jpg
+Cat,Carmen San Diego,64,Domestic Shorthair,,10.1,2,4,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/8b52221706bc98fb1e74ac620e28057e/bd477d2694838992849414807e1fc566.jpg
+Dog,Winston,80,Mixed Breed (Medium),Medium (25-59),49.2,3,2,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b78500bd59b8dd52f1c8206800593635/504ef61288c891864148e5a9fdfa93cd.jpeg
+Dog,Millie,109,Mixed Breed (Medium),Medium (25-59),49,3,1,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4fe35c61e12c12bc88686f58ef72c445/fd994c46dd4e7c2ffa8ec76183f8a239.jpg
+Cat,Limahl,4,Domestic Shorthair,,1.433,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/623df3a9474490a688cc84ba388d1d1c/7e7731bff6e9d64bccaee1a1c8456e91.jpg
+Cat,Mochi,5,Domestic Shorthair,,4.46,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9c34c19166d258a3899df61bc7e946ed/454156bd16ca5eaa7a4f2b9ca17ab7ff.jpg
+Cat,Yoshi,20,Domestic Shorthair,,13.4,3,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/f8e581c38c095ed65b306b2b480c7c7c/190168a83a4d2822bfc57fceb19c7948.jpg
+Cat,Lucy Goosey,5,Domestic Shorthair,,2.52,2,4,4,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/bcc7382c48f8b7492e0e3ae932b96ecc/d5e781b046fe34e6c08c29fa1ac06e3d.jpg
+Dog,Copper,76,Mixed Breed (Large),,47,3,2,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/8d8b650748f120ba9d97fce067d4429c/72258dfdb6dc65958332bd720bf13cfb.jpg
+Dog,Little Bit,28,Mixed Breed (Small),,10.2,3,2,2,2,3,2,3,https://new-s3.shelterluv.com/profile-pictures/11ab3f2c76d4947be4d59a9c75267fc4/89f82e5bc5d167b3bc8ef30df8a779ce.jpeg
+Cat,Tig,6,Domestic Shorthair,,4.6,3,3,4,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/902bd8a727ee3058346d789f5ef9585a/3b22edd64a4ee82053691920f6529e53.jpeg
+Cat,Lingshi,6,Domestic Shorthair,,5.9,3,3,4,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/ef34159a64629d814ecb8f159432f277/bae4344d42903718cd755499b8c357b2.jpg
+Dog,Smoochie Pooch,63,Mixed Breed (Medium),,51.2,3,2,5,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/3b90f4e3c6f695259bff857d69f5f48f/6c227d04af3ad412b93d09cf07df0ba0.jpg
+Dog,Rudie Joe,63,Mixed Breed (Medium),,56.4,3,3,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/35d34ac577396e397e9a01b3f3abfaf8/463cd76105442d9133fa36cd228df4f8.jpg
+Dog,Dreamer,12,Mixed Breed (Medium),,52.8,4,2,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/09785d6b686c6a8e86f9e65deb420955/694f2b384e0bc9150a9ef81da033ed52.jpg
+Cat,Alfred Pennyworth,5,Domestic Shorthair,,5.2,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/92148166a656ba744c5e078f8fa7d5f5/12175305c1fcb7b0660ec48f2f7776f8.jpg
+Cat,Helo,39,Domestic Shorthair,,11.14,1,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e1aa2db7d6de7ecaf89f8463ae9cffc1/a2250ae6d2ab4d3a867568641d9360ad.jpg
+Cat,Domino,4,Domestic Shorthair,,2.95,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/ee36994c9aaa590943f2a1156bffe09a/413ec35586cd7972fb4850d738e84f00.jpg
+Cat,Mei Mei,4,Domestic Shorthair,,4.62,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d87a6a9df9a1f2328769ee7e4178cdea/e146e737073c17f0b6056204078303d0.jpg
+Cat,Denis,3,Domestic Shorthair,,3.98,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/5a1155b6321460dac93ab8bbe5d580eb/5a21f5185356693c24ae877b4ce542e5.jpg
+Cat,Simba,53,Domestic Shorthair,,11.13,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cb9a058b9ffd208bd4e759c87b5fa48f/d85bdff8c4bb18f8edccccb206f64e0e.jpg
+Cat,Snake Pliskitten,3,Domestic Shorthair,,3.8,2,4,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/d592aa4b6250bb4a58f24b0e0f2a60f7/aa9becdd7309ded5a19a26b6653e5a6e.jpeg
+Cat,Lydia,3,Domestic Shorthair,,0.97,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/32c8b06beb873ed064c25873dc764ccb/a6ffe3c0168a2474e77ce1ecbdaf0f45.jpg
+Dog,Danzig,15,Mixed Breed (Medium),Medium (25-59),58,4,4,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/cff219eb541440488edeb4249e60302f/131351d92e1ef78124dc17207f7112e3.jpg
+Cat,Lola,12,Domestic Shorthair,,7.25,2,4,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/a6ce721e5219c30fea29d106eb9368cb/02df43570b7de47495ae9ca55fd64a0d.jpeg
+Cat,Mina,4,Domestic Shorthair,,4.56,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/c9c871ebc00f43a7f2d6c460875c3e2b/2c0f70ce7f39ead840b44e96e718bfb4.jpeg
+Cat,Lucy,4,Domestic Shorthair,,2.68,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/bf19128d6cb9d0a7177e5f841575a00b/2178a2a48bb6c8907c9ef371120f76fd.jpeg
+Cat,Hange,4,Domestic Shorthair,,2.9,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/f2e1b4b9880d9201888ae7fd28cda231/c196b8b16228253be9a3a2a6ffeb24b9.jpeg
+Dog,Queenie,46,Mixed Breed (Medium),Medium (25-59),66,4,1,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/d4d8f596e2de4ada65bf0adb17d72f12/8a851f6312df3011d15281725bcdc11e.jpg
+Cat,Peanut Butter,4,Domestic Shorthair,,3.22,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d5ac5b850b2435533ce85e78792a48f7/675a2095c490cb3bdfe64c60b4e08d2d.jpg
+Cat,Quotes,4,Domestic Shorthair,,4.22,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/bf249bdf3af42305ad6076602f7a125d/faa33eb8f69d04c7ca77e6e8b1cf83cc.jpg
+Cat,Maureen,4,Domestic Shorthair,,3.49,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/22580d0ad53085b0d84213e4df7c5816/fcd07c4ca51f3442724767985ae3bac5.jpg
+Cat,Thing 1,4,Domestic Shorthair,,4,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4a2175fc5fc0252be1d97ee5ba9e6b27/497e959225110849d0aacdb5448c8442.jpg
+Cat,Wyatt,6,Domestic Shorthair,,6.2,1,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a9e9452e2b04b2b6bda805b347cf2754/59c1b7a6ea65bd6912d0cf1162ec01db.jpg
+Cat,Willow,6,Domestic Shorthair,,5.5,1,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/07853cf188b92255e9decb8d7bad44da/8d65e0a2ecd288f6a062fa7b9b3c1c78.jpg
+Dog,Dove,4,Mixed Breed (Medium),,23.8,4,3,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/633c00d64774209a9e4e5fab45a2e390/4d1614e47cb8e3d5adacc9a3b1e984b8.jpg
+Cat,Alloy,6,Domestic Shorthair,,3.47,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Bartok,6,Domestic Shorthair,,2.87,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Mr. Peabody,110,Domestic Shorthair,,10,4,3,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/3481f73dae42944020cba8ab2d723adb/ade241827cbc3b3d263ed5d55dc17309.jpg
+Dog,Bingo,27,Mixed Breed (Medium),,53.1,3,2,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/2b1d0dbaf5979c483c1f89ca835c67b4/bcb110576edac148eebe1ce5db6eb088.jpg
+Dog,Bluey,27,Mixed Breed (Large),,71,4,2,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/e14338970e46274ce1310bbf07b8f3ca/023e72a368a17d50b438507b4674eefd.jpg
+Cat,Milo,50,Domestic Shorthair,,10.9,2,2,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/70a7d7ba64312179b41fffbbd4bc7970/fce996afae497b1dbda817f3a7206f50.jpg
+Cat,Axyl,67,Domestic Shorthair,,12.79,4,4,3,2,3,4,3,https://new-s3.shelterluv.com/profile-pictures/e3c3545ffb257e9a37b510c6e7245fec/3178efca969f324366898f900c3ffcbe.jpg
+Cat,The Brain,3,Domestic Shorthair,,2.18,2,4,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/58393dad88e77ba07d2952fc7472ffc0/fddd43e56df574516c5b468061b4b30f.jpeg
+Cat,Pinky,3,Domestic Shorthair,,3,2,4,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/5ba11e7e4aa85e462eaa469c0db95897/0b7dc711b636da826b92719fc672e206.jpg
+Cat,Jolene,3,Domestic Shorthair,,2,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/670d44d77648228caa251842278fc583/df5ea7a7ba90c3dba6e7bc636026f2b5.jpeg
+Cat,Hank,3,Domestic Shorthair,,2,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0d08dcbaa94f72ab77bb78ad9c52fdfa/55f3b0407fbbd38f4bb473544e892cc8.jpeg
+Cat,Hillary Kitt,198,Domestic Shorthair/American Shorthair,,6.77,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d201c9e9c970871e2859f18a32716f02/b24d2353acf5aff91d5a01a531323811.JPG
+Dog,Hops,2,Mixed Breed (Medium),,6.54,3,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/e4e8d55b7dec6410b7b7270daa12e8ef/7574ff7858bcc1594a8114bae4172a50.jpeg
+Dog,Briar,2,Mixed Breed (Medium),,16.9756,3,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/042c4eff5ed22dd1567acecea27af37e/757ba184f34829a7f0c1e2519404175f.jpeg
+Dog,Trumpet,2,Mixed Breed (Medium),,17.637,3,2,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/0e51583569ff136a74303867869a60d3/f52f476a40d47e656606ee672e6c7666.jpeg
+Cat,Jello,4,Domestic Shorthair,,4,2,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/da9423fc027b0251623efcefabe97218/988a4d027948407010a69a60bed6a1a6.jpg
+Cat,Mellow,4,Domestic Shorthair,,4.32,2,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3799a21f61d63e08b9ee8502a6ce2d92/af5bb955a580e5ec78761dabcfd4fbf6.jpg
+Cat,Sweet Potato,2,Domestic Shorthair,,3.43,2,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/124b678f699e8ee2b291c07a6722f576/20f8ba16039e2674866a358971bcdd77.jpg
+Dog,Charlie,98,Mixed Breed (Small),,21.6,3,4,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/fe2943c2a135c611f52e1a19b947b3d4/23aca82e7cd6371ebc96d3f44cdf0e49.jpg
+Cat,Big Foot,2,Domestic Shorthair,,0.4674,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3eefde514599a5bf0b5020bc007b0ef8/eb551cf37f2904efd54a1dc79c4fc5c2.jpg
+Dog,Abigail,3,Mixed Breed (Medium),,14.6,4,3,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/c6b17089dffc38160b968757054d9e99/cf4cf7aad0b5f0979604b7021dfc9473.jpg
+Dog,Sullivan,3,Mixed Breed (Medium),,14.8,3,4,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/96cde403e82ba5bcc5a1a01383fd15ef/60e30b9d43cdff4799d1b80e02fbc0ec.jpg
+Cat,Sweet Pea,5,Domestic Medium Hair,,4,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/ab746915d19838414c8e547a2d127e2b/0138d10c46b85ec2c681e4621348c5f5.jpg
+Dog,Leela,3,Mixed Breed (Medium),,17.4,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_dog.png
+Cat,Julia,2,Domestic Shorthair,,1.5,2,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/e2da586a570815d6d07fbb3bac9f3a9b/1d0f78ae9cfc6e9f44a574fba0422b93.jpg
+Cat,Elm,2,Domestic Shorthair,,0.9877,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4596d7da793887be7c35789410311873/3426aa6be11f70a1103e22ad421edf9c.jpg
+Cat,Baldwin,2,Domestic Shorthair,,1.45,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/7457ee96d8ab160a8662f7cccdc081ff/f62d01fbb511e374c14f0b3725e3dbc8.jpg
+Cat,Maggie,2,Domestic Shorthair,,1.06,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/2a546336e4e4ce8b895993290051104d/ef793759a15642edf71cfe73c6b28faf.jpeg
+Cat,Toeby,2,Domestic Shorthair,,0.76,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d063fd8fb7c734f0f35833c1db02ded7/c1037d78e38820f84edc17f07335d9a8.jpeg
+Cat,Wheezy,14,Domestic Shorthair,,9.02,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cedac45aa78f68e550540b1ae694a63a/e11954255cc27f860576d9a5e8c50198.JPG
+Dog,Stella,3,Mixed Breed (Small),,5.3,5,1,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/ec6f7a564cc184414bf32c4d4ce9e91f/6f567ce33372fa6429bd33e466208738.jpg
+Cat,Cloud,2,Domestic Shorthair,,1.39,2,3,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/36e4bcb5a9e92ad3ffd57a4a5d26b47b/0c8f55c5a884a4e4cf25798081b32a2a.jpg
+Dog,Juni,8,Mixed Breed (Medium),,37.8,5,4,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/7365217ed2168712943388e6e5111e3a/291c9d1aca0e1118c79b9370e04bd468.jpg
+Dog,Juno,8,Mixed Breed (Medium),,38.6,5,4,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/b865dd553d6420fa931ab9f7d466f8b0/a7298f3b4a92c35752aca277dfd438be.jpg
+Cat,Rose Bud,100,Domestic Shorthair,,10.04,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3208f16c16bd72b63d71999bd97f9cc1/20c5375d998b1efa725db8b19ee17b83.jpeg
+Cat,Buttercup,88,Domestic Shorthair,,10.36,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/df2a065f562aa01bf3ad83ab1bd1aaeb/196fcac1d13de6742ddc489aca79c9e3.jpg
+Cat,Radar Love,121,Domestic Shorthair,,14.56,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/fff2891a6eab0f85fae970fa1462eedc/afe7443609c2bd8d7fa0fd95f141bf3b.jpg
+Cat,Ruth,4,Domestic Shorthair,,3.29,1,4,2,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/bd8fff63b315927862fef5e703505186/c70fdd4ab393eb23ca1300cacded1b26.jpg
+Cat,Mabel,4,Domestic Shorthair,,4.11,1,4,2,3,3,1,3,https://new-s3.shelterluv.com/profile-pictures/ccac73a5c9ccc024cfc72e38367fe91b/a8c7d12e5073e386582b195827e77c10.jpg
+Cat,Ralph,4,Domestic Shorthair,,4.41,1,4,2,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/d2eb5ce24b4cb617faaec6b1be64928a/35437941f18d3fbf80ad5214f712dec2.jpg
+Cat,Silly Straw,6,Domestic Shorthair,,4.94,2,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/9ac24100e9e14251c6e2055f05742270/afa176a129f6f4943551894e69d9dca2.jpeg
+Dog,Oliver,73,Mixed Breed (Small),,11,4,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/70557875fe2b4c92153846df82cd32be/788a072bc4b771a02d9cb2c6669be7d3.jpg
+Cat,Eva,48,Domestic Shorthair,,14.4,2,3,2,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0e778101c4405aed74e6ade71a59fa0d/0fddcec1de957f0c601b58812071b0e5.jpeg
+Cat,Ada,15,Domestic Shorthair,,8.6,2,5,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0b441f5c476ee97573d8dcd932204bab/548959d664b611613eab7cb14b3168fd.jpg
+Dog,Stormi,4,Mixed Breed (Medium),,23.6,3,2,5,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/60d737425878d11223adbb7cce1bd8be/e271c7d22d002323866413eab3421388.jpeg
+Cat,Artie,29,Domestic Shorthair,,12.6,2,5,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/b13d0bb5d22f8b928b497ca169641279/5ad214635fb8c6191a7ac9db137e3a2d.JPG
+Cat,Dizzy Lizzy,2,Domestic Shorthair,,1.8,3,2,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/1796a469c6b483cc4a355381cdae9aa1/fdbab3a4c642a18a423d6bdf855201b0.jpeg
+Cat,Sampson,114,,,8.25,2,4,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/36db24c66dc2e87332b748362eb115e4/b267961f637fdf511c3464cd7f4e7e3c.jpg
+Cat,Silver,12,Domestic Shorthair,,10.7,2,4,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/256b512c1525374a9492a3e1d7ba7033/4f8087daaf8afe557661b7e47cf0f23a.jpeg
+Dog,Penny,19,Mixed Breed (Medium),,46.6,5,3,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/e411bd7e2a3916c503120c3c8b05a714/75e28ab39c8fd549e6108fea32c3a996.JPG
+Dog,Cleo,9,Mixed Breed (Medium),Medium (25-59),,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e20e724d447477a9dd67101cba8987b5/6f1885071c1a36bcfce9054a29a60822.jpg
+Cat,Autumn,3,Domestic Shorthair,,3.7,5,5,5,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/73547ac461572a0e1a476ba60dff7ca1/7bcb20d7874962d7d2a96b1c652eff7a.jpg
+Cat,Squishmallow,54,Domestic Shorthair,,16,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/841168d73be6093a3a46ab3b9b4b0cfa/c911be5d515892e73e7699057902d8aa.jpeg
+Dog,Charles Barkley,52,Mixed Breed (Large),Large (60-99),70.6,3,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/7f65c336d38fa427ef2ef7cab476955b/738f02e81b233a5c653aa11752d7a4c2.jpg
+Cat,Bella,116,Domestic Shorthair,,9.8,3,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6809f8495200fec5026f5628be7c3987/20240206130134.png
+Dog,Ted,42,Mixed Breed (Large),Large (60-99),77,2,1,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e79bd0bc942111eb7224c280cdf1f4e6/93843ae33d13bc52ec01d09cecc158e6.jpg
+Cat,George,212,Domestic Shorthair,,8.2,2,1,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6ca28464bca90f352f2953d2258b03b8/20230913145941.png
+Cat,Orion,29,Domestic Shorthair,,10,2,4,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/92eb90ac592e7f32218f9b00634c4aac/20230913150650.png
+Dog,William,81,Mixed Breed (Large),Extra-Large (100+),135.6,2,2,1,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/44a8690284883829dfe5040c3c833f6d/20240321080726.png
+Dog,Bunji,44,Mixed Breed (Medium),Medium (20-59),69,1,1,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/803b61dce7d2ead8deb5f4b59ca5c3dc/20240321085217.png
+Cat,Angie,14,Domestic Shorthair,,3.7699,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/1ad072c53ed425b76c912f2df10785d4/20241027085227.png
+Cat,Tuulikki,13,Domestic Shorthair,,6.63,2,4,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/24f364e48d6fa38e78438f7718b4fded/e99db07f9e89ad99ea8ba92ceec61990.jpg
+Cat,Bubbles,15,Domestic Shorthair,,8,2,3,3,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/dbbf6f6893e90aa557e4fa676c5a7a2d/199e1089eceb697f5ed3917f7f03b192.jpg
+Cat,Lana,90,Domestic Shorthair,,,1,1,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d7543cc8c03172f0b9b45229febf340e/23bd7247634794971149a6d5adccd9fa.jpg
+Cat,Spinach,42,Domestic Medium Hair,,10.91,4,1,1,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/cc89ab1ff05c01941d0a46fdc63a0365/366ab9f42b3e4164663bb9af56076ace.JPEG
+Dog,Betty White fka Daisy,71,Mixed Breed (Medium),Medium (20-59),48.6,1,1,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/e97f86486d77f3bd77bf13aaba2b971e/8d39d5e4d5a9320a75068089cb90facb.jpg
+Dog,Declyn,27,Mixed Breed (Medium),,70,4,2,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/156649665fa2db56273bda9ae2067cf4/350d594cfb5336c02075be74945f94f5.jpg
+Dog,Lil Blizzy,38,Mixed Breed (Medium),Medium (25-59),58,3,3,3,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/a036ecd28d21e875378f785f050065d8/8fe1f153cffb4fd0e96901cf5fc74125.png
+Cat,Jenny Fromdabloc,13,Domestic Shorthair,,6.02,2,2,2,3,3,1,3,https://new-s3.shelterluv.com/profile-pictures/47e02dee8f7951b2b8a56d5a07d45fdf/9ce48865e6591e2bc6e9fc50fbad9a73.jpg
+Dog,Dapper Dan,10,Mixed Breed (Large),,48.6,3,2,3,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/6edff2daddef3404888591ab16da894d/af6001c92a9e1924ab1e9026eff58941.jpg
+Cat,Talking Phaze,8,Domestic Shorthair,,7.05,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/63d9f12b177a9b5466bec601b261f764/94e31f3e57e5fd3b521a7b6013ec7896.jpg
+Cat,Marshmallow,7,Domestic Shorthair,,7.97,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/83d8f43a142d5bc134f6fd25b9e304ed/1270d87a48043e0ef9a39000916b237b.jpg
+Cat,Chew Chew,168,Domestic Shorthair,,13.95,1,4,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/875f52a2e3503461da13d6d6ff6bbb32/48e7e973e4697b5a2ae8b22ec2101568.jpg
+Cat,Neehna,13,Domestic Shorthair,,12,2,5,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/75f5a3baff5e9b0db6c85cc9cbeab32e/da734b3e195976bd880eeeab6f76ed2b.jpg
+Cat,Ruby Soho,18,Domestic Shorthair,,,2,3,2,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/22b410aca5673b438bbaceb5a1afe698/223f8d6ac9d5442ae854652b63cf42c5.jpg
+Cat,Thunder Rosa,18,Domestic Shorthair,,9.3,2,3,2,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/ce867b7e2cbc79296da5221f65a003b8/3fef2f1ac4b50f104ced3660f7f8d232.jpg
+Cat,Francine Smith,12,Domestic Shorthair,,6.52,2,2,2,3,3,1,3,https://new-s3.shelterluv.com/profile-pictures/5075f22004af6928b486defd68262102/1f6000d0c77386fe1aab783c12f50772.jpeg
+Dog,Squeezee McCheezee,18,Mixed Breed (Medium),Medium (25-59),34,4,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/54c1196fd42fa27749638a7620d40925/1da9d349cba80647d23eb4bc44ed6cff.jpeg
+Cat,Francesca,21,Domestic Shorthair,,6.54,2,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a52eebc79b65b9d99bfb4e6f952450c7/9019a37d9772148747b26e5d292335f6.jpg
+Dog,Tonka,19,Mixed Breed (Large),Medium (25-59),52.8,3,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/a1ae609d812895e5dfe75fa7e7434ab1/7459bcca8821dcb5b21c69ac90ad8344.jpg
+Cat,Poptart,10,Domestic Shorthair,,6.3,2,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/f59c83436d489f4b7200140a3549a76a/6f212eb06a9ed6649ea212bc055ee863.jpg
+Cat,Wonton,66,Domestic Shorthair,,8.6421,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b6184065fad294f0c768fcbd6b433575/da2ba969dc30dc7efc628524fdc6df71.jpg
+Cat,Stormy Sunset,83,Domestic Shorthair,,16.26,2,2,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/c05c28d4930281176fc709237671db3a/0496f052b77302518898d827b84a2ae4.jpg
+Cat,Snow Cone,16,Domestic Shorthair,,7.7,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6089464dc1ab8eb449c4806bfddbe1c4/c8d9278f63139b2d9117b5a46ca05a8c.jpg
+Cat,Stitch,4,Domestic Shorthair,,3.24,2,4,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/fd9af7c3e3b66fa6c0c0c0a7692b9303/35d16aca1a07c17f58f7de1fd11ef178.jpg
+Cat,Tiptoe,6,Domestic Shorthair,,5.8422,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Eeyore,6,Domestic Shorthair,,5.6218,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Jalapeño ,6,Domestic Shorthair,,4.3431,1,3,3,2,3,3,3,https://new-s3.shelterluv.com/profile-pictures/5b6707bc5f088b85f3d8d665894e7942/72e4ea4426da9d337e47df0685181aeb.jpg
+Cat,Ralphie Girl,50,Domestic Shorthair,,9.4,3,1,2,2,3,4,3,https://new-s3.shelterluv.com/profile-pictures/88ccfc517770c79e57a37b54f70642d1/42ad488252df6cba5f57ec7b6071a7b3.jpg
+Dog,Nola,13,Mixed Breed (Large),,51.8,3,3,3,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/c07cb9ef6461437eb2cd19d1af739dfc/838527e5bcf4671110fab653cc34a3a3.jpg
+Cat,Lilo,4,Domestic Shorthair,,4.91,3,5,5,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/79cb3df6198fd4eba5f173dc959be497/b6fc49c28c2c8c8f3b33656335dbd718.jpg
+Cat,Nani,4,Domestic Shorthair,,5.25,3,5,5,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/72c2ea6b787228a148e637ca48138f6d/88afc503ab5ff64596e8268035a50814.jpg
+Cat,Peppa,38,Domestic Shorthair,,8.27,2,5,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/e49d43ca04556d41d60a3a7fd63415bd/25b0a42c069236ab60568724d38fe89b.jpg
+Cat,Firefly,5,Domestic Medium Hair,,5.44,2,3,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/53b9f0a9960de8e32748141700722148/e43cd5cf2c7e0a01e07b2a37c7f323c7.jpg
+Cat,Junebug,5,Domestic Shorthair,,4.5,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/80b966920bb1911c27ff870d3c1ecae2/cccbb067b06d3e6aeb0609c9de20f49f.jpg
+Cat,Spork,4,Domestic Shorthair,,4.5195,2,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/1e349b860a008c0aec1687f176a0be52/275cef3060e1cdd03ac6f177bfba1448.jpg
+Dog,Lettie,26,Mixed Breed (Medium),Medium (25-59),36.4,2,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e95c4c30d710435f13ea0f040a63192a/3b7f4ce94e20f44dc9b9eb821ec2407f.jpg
+Cat,Daisy,5,Domestic Shorthair,,4.5856,2,5,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/2911557e7cd8ce08abcc1b02cb76933d/7bca3c01014a6133202461479fa027bb.jpeg
+Cat,Maisey,5,Domestic Shorthair,,4.8061,2,5,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/51f6792c83f23fc1d5627085ccf92845/0dfc2e2610520fcd392dd37ff7061dd6.jpg
+Cat,Mona,14,Domestic Shorthair,,6.76,2,2,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/d7af7fc38eacd1eb4757626fd586238d/d7e60db1741098e44c2f15616c765bd5.jpg
+Cat,Julia Child,14,Domestic Shorthair,,6.94,2,3,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/e8f2a762f6bed074fb10f540f7170bb6/a5a2d5dd1c3f6e8fa9fc6f5c843dd60e.jpg
+Cat,Anthony Bourdain,3,Domestic Shorthair,,2.55,2,4,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/2f6afc9f9c9a8a2e7c418e5f940d4d0e/761b142feab3a55533420665e5c6f266.JPG
+Cat,Serena,5,Domestic Shorthair/Domestic Shorthair,,3.7,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/446b3ed02168d7edc26059de7951f301/9da7a0a297946e076bb7af4190c68602.jpg
+Cat,Carina,5,Domestic Shorthair,,3.5,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/2dd509f202650224c18cda82bdffbaeb/2f8eb4e9ebd603f4de11f0ce9fdc7943.jpg
+Dog,Echo,15,Mixed Breed (Medium),Medium (25-59),50.6,4,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/45af84c7f7a40cda620a87f42af4c1d7/09fa8e2ffe1bc6c0d920f75a678a5734.jpg
+Cat,Scotty,121,Domestic Shorthair,,11,2,3,2,3,3,2,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Sneaky,85,Domestic Shorthair,,6.33,2,3,2,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/9c2cf7bc63ed97bffa5f81db769217c8/41926611af2f5ba91be0b1e49c63e460.jpeg
+Cat,Bobo,2,Domestic Shorthair,,2.44,2,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/e6e2c950d98929f8d8f152d51067d0ad/1fa97381115b742ca6ec0fadddc7fba4.jpg
+Dog,Alexis Rose,3,Mixed Breed (Medium),,15,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/165891725d4049d5181bb8baf2401054/97cf29e28a4bd2bc91084f673b86692c.jpg
+Dog,Patrick Brewer,3,Mixed Breed (Medium),,15,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/20adb88700d3f72b5bdc5f483dd108d0/855231aa9be740d0d19c202c1b9ac901.jpg
+Dog,David Rose,3,Mixed Breed (Medium),,15,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/5f789fd5c7f9ba85d1e3a19d7b86ef32/afa92d023ac7412064a9ed6f03540382.jpg
+Cat,Prince,108,Domestic Longhair,,9.5,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/ca2fa168d0cc7e3ac6102b29fca0cc8b/69f55e9f83202d1fd28615f0ffec608c.jpeg
+Cat,Johnny,5,Domestic Shorthair,,7.38,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/1200927449aff4b65543d57bbe06ef49/612f7b2f1752edd2f865d7fc3eac623c.jpg
+Cat,Jeremy,5,Domestic Shorthair,,7.93,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/533e9409039ff8c018059655f4ae4b58/06b63ecb7a4161c9aac5bc8de1b64193.jpg
+Cat,Pomni,8,Domestic Shorthair,,4.5,2,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/a084bcd5dd6bbb80914fc174ecbec655/2c6a05bfbc3bf24c43ac188ca26c5864.jpg
+Cat,Louisa May Alcatt,3,Domestic Shorthair,,3.19,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Edgar Allen Paw,3,Domestic Shorthair,,3.65,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Pawscar Wilde,3,Domestic Shorthair,,3.85,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Jane Pawsten,3,Domestic Shorthair,,3.2,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Yard Stick,3,Domestic Shorthair,,3.75,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/2a7f9f249cece7f5f638c92e30ffe432/bb7a684a3d0c1451defb89032018cfbb.jpg
+Cat,Harmony,18,Domestic Shorthair,,6.9446,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Lyric,2,Domestic Shorthair,,2.1385,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Tempo,2,Domestic Shorthair,,1.8519,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Monkey D. Luffy,48,Domestic Medium Hair,,3.98,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Lord Picklejuice,1,Domestic Shorthair,,1.3228,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+"Rat, Unspecified",Tumbleweed,27,,,,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/78198c7a44e1855218c73129bb3e5afc/20240703102641.png
+"Rat, Unspecified",Coyote,27,,,,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6939b45c2eaa74b5d868719c5990c68a/20240703102509.png
+"Rat, Unspecified",Khloe,7,,,0.9524,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/f68b26a0e21b9343b0991f483b3dc4ee/19cb2fe66a7e8dda067defd1c9f491e0.jpeg
+Dog,Lucy,150,Mixed Breed (Medium),,28.4,3,1,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/d08a9f9202a55d5d0116fec8fd41a80d/20191121113253.png
+Cat,Billy Idol,4,Domestic Shorthair,,1.97,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3ba596b72c266137688bd91ac0b5bf6b/7c2474ccdc974d6ade062f65aacbe991.jpg
+Cat,Apollo,46,Domestic Shorthair,,7,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/cacc5bf532e322ac389150a2c404eca6/a7d34d4bd09e72e31d09dfbb8886076e.jpeg
+Dog,Gunther,39,Mixed Breed (Medium),,54.6,3,4,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/09a1eb59a15c63b16e594d6e00d729e3/5b1568a790bdd0342c4ce9e53e76cb00.jpg
+Cat,Xena,39,Domestic Shorthair,,7.36,2,2,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/7c04bc0ecbfcb14c53741321bfc089cf/b5f011c5c66ad4e4dd5b673df7513f0c.jpg
+Dog,Flora,13,Mixed Breed (Medium),,28.8,3,3,3,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/8bd5327b83422d89fb29298dc9bb295c/917327d9ca6c46521695afa6c00d4372.jpg
+Cat,Ragu,54,Domestic Shorthair,,10.5,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/204bb082c5b94a0aa445084c88956b39/7fd14f7f9be689973687034d2bb96e0c.jpg
+Cat,Ozzy,12,Domestic Shorthair,,9.09,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/3631191b0e350c0b684609efee9478ea/5340a2cd46c1db6e80d58733856afdce.jpg
+Cat,Maxine,1,Domestic Shorthair,,1.01,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/83f8de9f189a2e59a09ea1e398d91152/599a33e8737db8fcfb3ea73d0b2f5e33.jpg
+Cat,Pizza,0,Domestic Shorthair,,0.2425,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d74bfab9a420e599d3dd5e0232c5af4d/2496b19ec41a5cd9a397178a13d69f33.jpeg
+Dog,Bell Bottom,12,Mixed Breed (Medium),Small (1-19),13.6,2,2,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/803adfa9d0ecfe14cd7071d88c219adf/20241107124010.png
+Cat,Vincent Valentine,17,Domestic Shorthair,,4.41,4,5,5,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/afc216e4fb85b80dab2e43762fe738a8/20240508080535.png
+Cat,Daisy,16,Domestic Shorthair,,3.02,4,5,5,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/4bae7c321e404434923968ff3216b8cb/20240630073459.png
+Cat,Lint,16,Domestic Shorthair,,2.4251,2,3,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/2ca6935e0f5024996d788cbc85bc9e32/20240627163809_0.png
+Cat,Smitty,6,Domestic Shorthair,,4.35,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/374ea8a51682520674b5947f43eefbe9/e9ba5f59504957df4fd102067f24aee1.JPG
+Cat,Hannah Meowtana,5,Domestic Shorthair,,2.0944,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/09c746dd3d53ecae16298be437bbbb34/72c702465a1ba085847610f66532cd1a.jpg
+Cat,Jenna Meowdougall,5,Domestic Shorthair,,1.9842,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/949e3d60b8d2530bd73728c8893f8760/a3de65faa9a0dfb2e97b64251e9b97ed.jpg
+Cat,Chester,5,Domestic Shorthair,,2.61,2,3,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/4c0ea0024946d095e741b61ab3e231cf/92d73ad703a546caacd4edc60950e461.jpg
+Cat,Hamtaro,4,Domestic Shorthair,,1.5873,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/d496cbaaaa5e1d0e1f99e67745739a62/676a07f75dbb58099f97947d296faf7e.jpg
+Cat,Winky,6,Domestic Shorthair,,3.15,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/333e0a8918c04e2ddb238f74f187a167/d94bfb2ca13f4d5a0f9c29197e967892.jpg
+Cat,Slinky,6,Domestic Shorthair,,3,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/70c314f8f8a6928eca0902d154878983/c8ab1c8783b7878656c045780599aa0f.jpg
+Cat,Chavela,5,Domestic Shorthair,,3.49,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/975f6af74aa9a1fa4009219e42f56d93/29ec564acadc0eb405b717ff647d19d2.jpg
+Cat,Frida,5,Domestic Shorthair,,3.54,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a11f52c8a16aeb509f77d0b6af07a23b/2810c80cf15c117eff23228955095a39.jpg
+Cat,Peekaboo,6,Domestic Shorthair,,1.3,2,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4919344a859db1f24ffcb143c98bc8de/5681afa2419f3885dadaa3ad438a098c.png
+Cat,Jon Bon Jovi,4,Domestic Shorthair,,1.8916,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/83033a14a9edd586e66080c8a454ad4e/4046ed0dfa64067a6ced1a05024ff1bb.jpg
+Cat,Annie Lennox,4,Domestic Shorthair,,1.5168,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4f7ec4dddb405feef3cc77885bc583ac/747768f6088c64b288e126ccddfc6cc6.jpg
+Cat,Honey Lemon,5,Domestic Shorthair,,2.6455,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/17f6a43a0a7be261650d874335a10765/aa87cc952231573cbbdc391043bb9108.jpg
+Cat,Gogo Tomago,5,Domestic Shorthair,,3.2187,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/944708d2862c2ff6b0f949c1ab8f2556/88e8d9d789d2f84e62f2dffc04442d63.jpg
+Cat,Faolan,5,Domestic Shorthair,,4.6,3,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4c0d66efe159f6716257ee1c22ae1486/441a25a2587c122896a63aed3d4d1f34.jpg
+Cat,Rick Astley,4,Domestic Shorthair,,2.02,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/de083626aeec4cd8db27cf5ee359e69a/0044b536ec6234f141644a82a5bce485.jpg
+Cat,Alan,4,Domestic Medium Hair,,1.5,5,5,5,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/994b37ccfea987ca79a9969f4f71e79f/5c0bbcc27cd00fdae959cd48d28cfdba.jpeg
+Cat,Oliver,4,Domestic Shorthair,,1.58,3,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/65baebb2e41718aa72abacf4ddf061cc/3138ebd2b5562fbf78ba52332e377a61.jpg
+Cat,Jodie Foster,5,Domestic Shorthair,,2.4251,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/f6b3ca5482691613ef7eacc2cf9683ff/9fd604ddb614b908de9ab5a1ac20f002.jpg
+Cat,Harvey Milk,5,Domestic Shorthair,,3.1747,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9324dfaaa296de2bb73fc0e0de12e252/24a62e84db35f5586e9ca98c3176b9cf.jpg
+Cat,George Michael,5,Domestic Shorthair,,3.8,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/34fe3710c4049caaaa363e1ef8f51b12/92b67cc1598021cbcecbec2d3fb914d4.jpg
+Cat,Elton John,5,Domestic Shorthair,,3.6,2,3,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/7dd1202900c7cc75b730984b672a4ef5/db4ee5406972a68aea947fa0241f5f8d.jpg
+Cat,Tweety,4,Domestic Shorthair,,4.85,2,4,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/055959ea083a5e57ac47f1e16071c446/27a702d019d70713a3eb5aa9d5698413.jpg
+Cat,Sylvie,4,Domestic Shorthair,,4.09,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/c5855e2f17851ee507cfc41cd6f35567/0b091a200aab6e9d94460e1cb014d6f7.jpg
+Cat,Sequoia,5,Domestic Shorthair,,3.32,4,5,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/79d6cbf537b78c82f154cf072d4ffbf3/81ba7be004e274023bf90cf2b14d6a9a.jpg
+Cat,Bean,4,Domestic Shorthair,,3.45,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/584bd2a8f1ea4094e0816a4de344d997/8bec8f02f9e13bebdce9317470de113a.png
+Cat,Sasha,4,Domestic Medium Hair,,4.56,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b3eb410931e7335f42aa7d8200e9d158/e319ee58d2d3d46ca51ef5918a31a6b3.jpg
+Cat,Ribeye,3,Domestic Shorthair,,2.62,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/302fef4aa9d9616a38ae3e6fefa3fa17/af212d317f5d99280ab69b26c25aa8fb.jpg
+Cat,Blue,5,Domestic Medium Hair,,4.1,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/bb13138bb012216ad0bf0aad05fbfe02/76fdddcc46c2c57e665c44be4c9e2060.jpg
+Cat,Gunther,3,Domestic Shorthair,,3.12,2,4,4,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/ab2028e5da2cff9ac7132ca43375aeac/9c49d7837acd1e0e1c2f3d9f1722245d.jpeg
+Cat,Slurms MacKenzie,3,Domestic Shorthair,,2.8,2,3,5,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/9a46c8b43acee355e1fb9b8d118764cf/6bdd7f0a34114f634465c6cdbd267d49.jpeg
+Cat,St. Claire,4,Domestic Shorthair,,2.65,3,4,2,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/9f3ef53cb214b649d1d1ad17d46638b1/cd749c9c4309d39fa3d8047f6c8336da.jpg
+Cat,Quentin,4,Domestic Shorthair,,1.2655,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/aee2111bcce861481a219d6b477f8dd8/a2b00d3be75e0a2ef92bc03007a3577f.jpg
+Cat,Stormy,4,Domestic Shorthair,,1.1023,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4db5997e62364ff69b72ef65d54cb9b6/3d6fd5040b34e219ff5aaeb799920a4a.jpg
+Cat,Charm,4,Domestic Shorthair,,2.36,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/1ecd357779a339a88c0656c67cc50ade/5bb16676ec0891f8ee2e53999b21ef65.jpg
+Cat,Hot Pocket,4,Domestic Shorthair,,2.67,2,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/ef449fde34294c834648e56e6512313d/83d2732b1cff9415deabeab4965f22c4.jpeg
+Cat,Reese's Pieces,3,Domestic Medium Hair,,2.54,2,3,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/96dc046105e41d253aad7ee28e5148c8/44612f74e5ffdd893254c320f3b85d5e.jpeg
+Cat,Ally,4,Domestic Shorthair,,1.64,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/6b878c8db19b93e629536a0ab8797bce/46f82be35be2d5466dcf463fe03e0cec.jpg
+Cat,Cassian,4,Domestic Shorthair,,4.47,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/4a161ebc928193ab78570804e49f493c/a0c0dd7e41b46b4128c085adbd5f6030.jpeg
+Cat,Tiger,4,Domestic Shorthair,,2.94,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/caada8139920faad3c8b9a48cf75ea33/a6f32c6b70101eb071c2526d4ea5e3ff.jpg
+Cat,Big Blue,4,Domestic Shorthair,,2.35,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/20671cc867d7c0af8f3a09c98c4f6168/59b8eea5b038e05c42793f018c0f389d.jpg
+Cat,Thing 2,4,Domestic Shorthair,,2.04,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/2ba218b9c974003c13a9c421e53a861a/4a0cb3830acfbb212d390c0e66d3f4d9.jpg
+Cat,Smokey,4,Domestic Shorthair,,2.16,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/41dbfbecf140318811f0742938bb5485/0716a56bc9e7d8e8455daccc0f0a23cb.jpg
+Cat,Thomas,6,Domestic Shorthair,,6.99,1,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/f072b93a4f2e403545ca807c4d928634/0de1f899c936127f4875cc05ce2b2060.jpg
+Cat,Xerxes,4,Domestic Shorthair,,1.26,3,5,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/48a244caffe57907cd1b0e83b8f2535e/6fc58fe628538e766c51adef97b69f93.jpg
+Cat,Handsome,4,Domestic Shorthair,,5.46,3,5,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/0007f3176cc3717962a3aacf18af690a/909c352a93d33f748dabce1af9931e9c.jpg
+Cat,Precious,4,Domestic Shorthair,,4.69,3,5,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/8791caf16df8aaea23ec3d57a0c602ff/9203cb7324eaaef793152548233d0bf8.jpg
+Dog, Oriole,4,Mixed Breed (Medium),,,4,3,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/05276ca262df4bddc414ed9ba746cf3a/9bfd2835bc120728936c74f9562973de.jpg
+Dog,Chickadee,4,Mixed Breed (Medium),,25.7,4,3,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/1b07532bc15bfb365ad255183c05d599/1d6f5a6997c30c070598e68941f66077.jpg
+Dog,Blue Jay,4,Mixed Breed (Medium),,11.9,4,3,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/a38d68c0a4e6adc3a100ac8253642f80/3762c3e2c7d3d13d3130c3e4168cac51.jpg
+Cat,Basil,3,Domestic Shorthair,,1.7,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/public/img/profile_photo/default_cat.png
+Cat,Vanna,5,Domestic Shorthair,,4.48,2,5,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/fa6f3886ed5c0ede2fc1034e10902015/12668f11715bb9e2cb5e4383ef15fb86.jpg
+Cat,Tillie,5,Domestic Shorthair,,4.5415,2,5,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/9eb2d577548a564c5b6acb56bd048ed1/84d76101dbb7320fb218d6d967ad675c.jpg
+Cat,Opal,5,Domestic Shorthair,,6.17,2,5,4,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/1f9c2a2beefdc88f776582a599e9ac21/94c20795f511eb42d444be03a6141d71.jpg
+Cat,Maynord,4,Domestic Shorthair,,3.26,2,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e3fe0e9e1438b87c6f21d05dca6b29a6/23d3cef456399fb780caa70b6f2c586f.jpg
+Cat,Patchouli,3,Domestic Shorthair,,2.66,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a2da93bb847a0856450787b61bea9df9/535da71f3dfc6addb229ce90f746723c.jpg
+Dog,Miko,4,Mixed Breed (Medium),,14,5,4,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/805a580c59b5b2fa23fa9539e90d348f/4a245f3e588ec9a0338152d97f3eb624.jpg
+Cat,Guy Fieri,3,Domestic Shorthair,,2.13,2,4,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/c10caa3aa8c7923f2e5ccaf1d1066f6e/c2459561e730df16dbec7898e3ed512c.JPG
+Cat,Fiona,4,Domestic Shorthair,,2.65,2,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/911e6057f54eaaeaaae214097ad3f59d/d49d6127cfd52d4586ce85cc2a850da0.jpg
+Dog,Jayva,17,Mixed Breed (Medium),,53,4,2,4,2,3,4,3,https://new-s3.shelterluv.com/profile-pictures/f165fdda18d6d847269b50aef551b2a2/15c25fba5684ebf8b8b467acb7af6263.JPG
+Dog,Snuffles,3,Mixed Breed (Medium),,10.8,4,2,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/868151ca7c4fe6e288ac5860bd234e6c/21ee958d3e0be99022ac23417c6b62f5.jpeg
+Dog,Fei Fei,3,Mixed Breed (Medium),,9.6,4,2,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/84ba2fb574e48dadfda1283af5eb9c05/3426ce184b004300d77109426fedb990.jpeg
+Cat,Chicken,3,Domestic Shorthair,,2.6,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9e3146c9e532853ae539649055d88210/bf1b0bd59745092c17d648272fea7c51.jpg
+Cat,Nugget,3,Domestic Shorthair,,2.75,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/0e99996773d8f1f4f7f3955de6dd73b6/c5e1af00d2af9df9db77798a752aee31.jpg
+Cat,Wendy,3,Domestic Shorthair,,2.71,2,5,5,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/1e2e8c47a84d58ce4645cdb403386e7a/88785b96e2ed65860c52966e23268e34.jpeg
+Cat,Sammy,3,Domestic Shorthair,,2.41,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/fdf0b901e982e52b345dd4f77d4f2c33/5b2f86710f905520dd33b80cc79f7566.jpeg
+Cat,Miku,3,Domestic Shorthair,,2.25,2,5,5,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/be9aa8bac4e729747d288f75503fbdd7/e7047c2892842ec1696aaf57009421dd.jpg
+Cat,Yuffie,2,Domestic Shorthair,,1.165,2,3,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/8b7fec22e3651ec659421f2fccb36215/2b48d741b437c19530d464628b46cef5.jpg
+Cat,Tifa,2,Domestic Shorthair,,1.18,2,3,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/62cc13071154011791ec9e128628fd41/7176a700fbd206f27fc5bac2f3d6c3c3.jpg
+Cat,Argentina,17,Domestic Medium Hair,,10.7,2,5,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/46e96f61c32f42486dd0119154f6f22b/ed4293af040f55b7936090d23b4b18f2.jpg
+Cat,Kroger,7,Domestic Shorthair,,4.3,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/af34f48916f408abe19931f0cefe164d/af7bde3bf37ae3baa9229932f4fe57f2.jpg
+Cat,Gazpacho,12,Domestic Shorthair,,10.2,2,3,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/db91a7a5378e6e81613e3fc6e0b205be/95e6f0b543aa7d587242e56062bd5003.jpg
+Dog,Star Jasmine,2,Mixed Breed (Medium),,17.196,3,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/35dc57c2dcfcc78c1c957d7ac088657d/c578d353602a89690d2609efebe10472.jpeg
+Dog,Bougainvillea,2,Mixed Breed (Medium),,17.4165,3,2,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/4be938e992323dac3ba312dc854a87b1/d16d4a1dad7c7fb49139c3c1d30037fe.jpeg
+Cat,Cat Cora,3,Domestic Shorthair,,1.52,2,3,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/c3fcafd1a39884fb85ae760a3b8cf12d/637e6091b6691b8af441b6d24bce153d.JPG
+Cat,Paula Deen,3,Domestic Shorthair,,2.02,2,4,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/cb12b3940824115d949d152b3713496f/6726d644523cf581cd271a8a41fc96af.JPG
+Cat,Alton Brown,26,Domestic Shorthair,,7.55,2,3,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/3f6ab75c327ad20f7b8cd9e3d86ab9fc/f99701e3d10027bab55a929ad64321ff.JPG
+Cat,Gordon Ramsey,14,Domestic Medium Hair,,6.46,2,3,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/f40ea35685f71b63ccad7d9bcd05370f/d918fb6f0c484a306d8e2026952d1fb4.JPG
+Cat,Eugene,21,Domestic Shorthair,,8.85,2,3,2,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/e9f974bb2910b4bc8420d494cd5b3f10/4232e79a9c516668a9aabe509068a6db.jpg
+Cat,Moxie,126,Domestic Shorthair,,12.85,3,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/a89fc7284fdddaeb8d3dde944766ee9b/4674c50e174e553b250b37482adba9c3.jpg
+Dog,T-Rex,103,Mixed Breed (Small),Small (1-19),10.2,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/64555fbae7bac6116d2a8d889a2a8fd1/20230131201445.png
+Cat,Whiteclaw,5,Domestic Shorthair,,5.65,3,3,4,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/5df4f9048469ca5a616fe1dce8772ba6/447eed3a3f2f9e8e81db2d2734d55631.jpg
+Dog,Angel,64,Mixed Breed (Medium),,44.7,3,2,2,2,3,4,3,https://new-s3.shelterluv.com/profile-pictures/600896751868326c1b0627fcadd857ef/0abab1d897326795988f6adf7a28f11d.jpg
+Cat,Moody,4,Domestic Shorthair,,3.72,2,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/e53f74fc2fc1f093ccc1a719fa010472/96a57694050b24724719e97b39d3b622.jpeg
+Cat,Rory,6,Domestic Shorthair,,5.7,1,3,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/1c7381f4e9710c3831feb16970cfcb02/6880a7a00523fd0dc2a401c12104cac6.jpg
+Dog,Finch,4,Mixed Breed (Medium),,34,4,3,4,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/abc3bea907f80b1736df5716d92b1e90/fedcf0797c2f4eee4fc98defb5397b5b.jpg
+Cat,Seamus,5,Domestic Shorthair,,7.16,2,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9019c6a705a43be78fab35454524bbbd/5258670fa220c9bd86f77eb613b7c492.jpg
+Cat,Merlin,5,Domestic Medium Hair,,4.8,2,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/5e9817cd643a48472f7cdde541b23556/c58e24293bc0d0879d7fff66fba6c97c.jpg
+Dog,Roxy,99,Mixed Breed (Medium),Medium (25-59),37.2,4,3,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/d0bf2b71d9723b369e3751549ba0d469/de770cfa44507501d63a357dd7212e88.jpeg
+Cat,Mushu,25,Domestic Shorthair,,15.88,2,1,5,3,3,5,3,https://new-s3.shelterluv.com/profile-pictures/9c9da385f593a6f5ba32ef70eeba860a/82bd6551995885df01e8bfb0a5e36ea1.jpg
+Dog,Gilbert,3,Mixed Breed (Medium),,2.53,3,4,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/911f85ac9784f03997662f979c1c0a03/9a2e6f927e8e3a7ede32ff75aa8c7c66.jpg
+Cat,Sticky Note,3,Domestic Shorthair,,1.55,2,2,2,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/234d5589fd185dd9eb1c2e5727818607/8ba679d8102a656057a6815102dfd0bf.jpg
+Dog,Moo Cow,25,Mixed Breed (Medium),,47.6,3,3,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/9380191e379124fbc0f335e007925916/a2a2c491b045c5c1f3eb2a6af48434e4.jpg
+Dog,Scarlett,0,,,,3,2,3,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/7a19526cbf303dc4752632bb4d2b0f1b/a56c49ea57176dee77d0a36d746a839e.jpeg
+Dog,Tedward,34,Mixed Breed (Large),Large (60-99),64,3,2,4,3,3,4,3,https://new-s3.shelterluv.com/profile-pictures/e994e942f5bf33e78432835fc54e42c9/20240711122554.png
+Dog,Shiki,33,Mixed Breed (Small),Small (0-24),17.2,2,2,2,3,3,2,3,https://new-s3.shelterluv.com/profile-pictures/cbb7b02a97973f9cdb97a0cd75f73011/ad74df72c627b299619949bff4e88700.jpg
+Dog,Luffy,109,Mixed Breed (Medium),Medium (25-59),32.8,3,2,3,3,3,3,3,https://new-s3.shelterluv.com/profile-pictures/b6a48006ff75d74d03f03033ec2eaade/d6f1fc612738aba9ad70d6e240ab158e.jpeg
